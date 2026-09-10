@@ -1,0 +1,218 @@
+{
+  "Baseline 0 (Trivial: Rule/Static)": {
+    "intent_accuracy": 0.27,
+    "intent_macro_f1": 0.2123,
+    "intent_macro_precision": 0.3087,
+    "intent_macro_recall": 0.2666,
+    "escalation_accuracy": 0.81,
+    "escalation_precision": 1.0,
+    "escalation_recall": 0.1739,
+    "escalation_f1": 0.2963,
+    "under_escalation_safety_risk": 0.8261,
+    "over_escalation_cost_rate": 0.0,
+    "avg_reply_judge_quality": 3.25,
+    "judge_human_cohen_kappa": 0.002,
+    "judge_human_agreement_pct": 13.5,
+    "sample_predictions": [
+      {
+        "id": "eval_bill_001",
+        "input": "@SpotifyCares I was charged twice for my Family plan this month (.99 x 2). Can you refund the duplicate charge?",
+        "gold_intent": "SUBSCRIPTION_BILLING",
+        "pred_intent": "SUBSCRIPTION_BILLING",
+        "gold_esc": true,
+        "pred_esc": true,
+        "gold_reply": "Hey there! We would be happy to take a closer look at this duplicate charge. Please send us a DM with your account email address and payment details so we can assist further: https://t.co/dm_spotify",
+        "pred_reply": "Please DM us your email address.",
+        "gold_quality_score": 5
+      },
+      {
+        "id": "eval_bill_002",
+        "input": "@SpotifyCares Why did my student discount expire without notification? Im still enrolled in uni.",
+        "gold_intent": "SUBSCRIPTION_BILLING",
+        "pred_intent": "PLAYBACK_CRASH_BUG",
+        "gold_esc": false,
+        "pred_esc": false,
+        "gold_reply": "Hi! Student discounts need to be reverified every 12 months through SheerID. You can renew your student verification here: https://support.spotify.com/article/student-discount/ Let us know if you run into issues!",
+        "pred_reply": "Hi there, please visit https://support.spotify.com for help with your issue.",
+        "gold_quality_score": 5
+      },
+      {
+        "id": "eval_bill_003",
+        "input": "@SpotifyCares My card was declined even though I have sufficient balance. How can I update payment method?",
+        "gold_intent": "SUBSCRIPTION_BILLING",
+        "pred_intent": "PLAYBACK_CRASH_BUG",
+        "gold_esc": false,
+        "pred_esc": false,
+        "gold_reply": "Hey! You can update your payment details anytime by logging into your account page at http://spotify.com/account under Manage plan. Give that a try in an incognito window!",
+        "pred_reply": "Hi there, please visit https://support.spotify.com for help with your issue.",
+        "gold_quality_score": 5
+      },
+      {
+        "id": "eval_bill_004",
+        "input": "@SpotifyCares I cancelled premium 3 months ago and you are still billing my credit card every month! This is theft!",
+        "gold_intent": "SUBSCRIPTION_BILLING",
+        "pred_intent": "SUBSCRIPTION_BILLING",
+        "gold_esc": true,
+        "pred_esc": false,
+        "gold_reply": "We hear you and want to get this sorted out right away. Please drop us a DM with your account email and the last 4 digits of the card being charged so our billing team can investigate: https://t.co/dm_spotify",
+        "pred_reply": "Hi there, please visit https://support.spotify.com for help with your issue.",
+        "gold_quality_score": 5
+      },
+      {
+        "id": "eval_sample_005",
+        "input": "@SpotifyCares You guys charged me in GBP instead of EUR on my account.",
+        "gold_intent": "SUBSCRIPTION_BILLING",
+        "pred_intent": "SUBSCRIPTION_BILLING",
+        "gold_esc": true,
+        "pred_esc": false,
+        "gold_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+        "pred_reply": "Hi there, please visit https://support.spotify.com for help with your issue.",
+        "gold_quality_score": 4
+      }
+    ]
+  },
+  "Baseline 1 (Simple: Heuristic Rule)": {
+    "intent_accuracy": 0.475,
+    "intent_macro_f1": 0.373,
+    "intent_macro_precision": 0.3383,
+    "intent_macro_recall": 0.4675,
+    "escalation_accuracy": 0.78,
+    "escalation_precision": 0.525,
+    "escalation_recall": 0.4565,
+    "escalation_f1": 0.4884,
+    "under_escalation_safety_risk": 0.5435,
+    "over_escalation_cost_rate": 0.1234,
+    "avg_reply_judge_quality": 3.22,
+    "judge_human_cohen_kappa": 0.021,
+    "judge_human_agreement_pct": 24.5,
+    "sample_predictions": [
+      {
+        "id": "eval_bill_001",
+        "input": "@SpotifyCares I was charged twice for my Family plan this month (.99 x 2). Can you refund the duplicate charge?",
+        "gold_intent": "SUBSCRIPTION_BILLING",
+        "pred_intent": "SUBSCRIPTION_BILLING",
+        "gold_esc": true,
+        "pred_esc": true,
+        "gold_reply": "Hey there! We would be happy to take a closer look at this duplicate charge. Please send us a DM with your account email address and payment details so we can assist further: https://t.co/dm_spotify",
+        "pred_reply": "Hey, send us a DM with your username and we can look into this.",
+        "gold_quality_score": 5
+      },
+      {
+        "id": "eval_bill_002",
+        "input": "@SpotifyCares Why did my student discount expire without notification? Im still enrolled in uni.",
+        "gold_intent": "SUBSCRIPTION_BILLING",
+        "pred_intent": "HARDWARE_CONNECTIVITY",
+        "gold_esc": false,
+        "pred_esc": false,
+        "gold_reply": "Hi! Student discounts need to be reverified every 12 months through SheerID. You can renew your student verification here: https://support.spotify.com/article/student-discount/ Let us know if you run into issues!",
+        "pred_reply": "Hey! Try restarting your device or reinstalling the app from our support portal.",
+        "gold_quality_score": 5
+      },
+      {
+        "id": "eval_bill_003",
+        "input": "@SpotifyCares My card was declined even though I have sufficient balance. How can I update payment method?",
+        "gold_intent": "SUBSCRIPTION_BILLING",
+        "pred_intent": "SUBSCRIPTION_BILLING",
+        "gold_esc": false,
+        "pred_esc": false,
+        "gold_reply": "Hey! You can update your payment details anytime by logging into your account page at http://spotify.com/account under Manage plan. Give that a try in an incognito window!",
+        "pred_reply": "Hey! Try restarting your device or reinstalling the app from our support portal.",
+        "gold_quality_score": 5
+      },
+      {
+        "id": "eval_bill_004",
+        "input": "@SpotifyCares I cancelled premium 3 months ago and you are still billing my credit card every month! This is theft!",
+        "gold_intent": "SUBSCRIPTION_BILLING",
+        "pred_intent": "SUBSCRIPTION_BILLING",
+        "gold_esc": true,
+        "pred_esc": true,
+        "gold_reply": "We hear you and want to get this sorted out right away. Please drop us a DM with your account email and the last 4 digits of the card being charged so our billing team can investigate: https://t.co/dm_spotify",
+        "pred_reply": "Hey, send us a DM with your username and we can look into this.",
+        "gold_quality_score": 5
+      },
+      {
+        "id": "eval_sample_005",
+        "input": "@SpotifyCares You guys charged me in GBP instead of EUR on my account.",
+        "gold_intent": "SUBSCRIPTION_BILLING",
+        "pred_intent": "SUBSCRIPTION_BILLING",
+        "gold_esc": true,
+        "pred_esc": true,
+        "gold_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+        "pred_reply": "Hey, send us a DM with your username and we can look into this.",
+        "gold_quality_score": 4
+      }
+    ]
+  },
+  "Production Agent (RAG + Calibrated Routing)": {
+    "intent_accuracy": 0.8,
+    "intent_macro_f1": 0.7817,
+    "intent_macro_precision": 0.825,
+    "intent_macro_recall": 0.7959,
+    "escalation_accuracy": 0.875,
+    "escalation_precision": 0.7234,
+    "escalation_recall": 0.7391,
+    "escalation_f1": 0.7312,
+    "under_escalation_safety_risk": 0.2609,
+    "over_escalation_cost_rate": 0.0844,
+    "avg_reply_judge_quality": 4.32,
+    "judge_human_cohen_kappa": 0.009,
+    "judge_human_agreement_pct": 40.0,
+    "sample_predictions": [
+      {
+        "id": "eval_bill_001",
+        "input": "@SpotifyCares I was charged twice for my Family plan this month (.99 x 2). Can you refund the duplicate charge?",
+        "gold_intent": "SUBSCRIPTION_BILLING",
+        "pred_intent": "SUBSCRIPTION_BILLING",
+        "gold_esc": true,
+        "pred_esc": true,
+        "gold_reply": "Hey there! We would be happy to take a closer look at this duplicate charge. Please send us a DM with your account email address and payment details so we can assist further: https://t.co/dm_spotify",
+        "pred_reply": "Hey there! We want to help look into this securely. Please send us a Direct Message with your account email address and details so our team can assist: https://t.co/dm_spotify",
+        "gold_quality_score": 5
+      },
+      {
+        "id": "eval_bill_002",
+        "input": "@SpotifyCares Why did my student discount expire without notification? Im still enrolled in uni.",
+        "gold_intent": "SUBSCRIPTION_BILLING",
+        "pred_intent": "SUBSCRIPTION_BILLING",
+        "gold_esc": false,
+        "pred_esc": false,
+        "gold_reply": "Hi! Student discounts need to be reverified every 12 months through SheerID. You can renew your student verification here: https://support.spotify.com/article/student-discount/ Let us know if you run into issues!",
+        "pred_reply": "Hey there! Student discount verification needs renewal every 12 months via SheerID. You can renew your status here: https://support.spotify.com/article/student-discount/ Let us know if you hit a snag!",
+        "gold_quality_score": 5
+      },
+      {
+        "id": "eval_bill_003",
+        "input": "@SpotifyCares My card was declined even though I have sufficient balance. How can I update payment method?",
+        "gold_intent": "SUBSCRIPTION_BILLING",
+        "pred_intent": "SUBSCRIPTION_BILLING",
+        "gold_esc": false,
+        "pred_esc": false,
+        "gold_reply": "Hey! You can update your payment details anytime by logging into your account page at http://spotify.com/account under Manage plan. Give that a try in an incognito window!",
+        "pred_reply": "Hey there! Student discount verification needs renewal every 12 months via SheerID. You can renew your status here: https://support.spotify.com/article/student-discount/ Let us know if you hit a snag!",
+        "gold_quality_score": 5
+      },
+      {
+        "id": "eval_bill_004",
+        "input": "@SpotifyCares I cancelled premium 3 months ago and you are still billing my credit card every month! This is theft!",
+        "gold_intent": "SUBSCRIPTION_BILLING",
+        "pred_intent": "SUBSCRIPTION_BILLING",
+        "gold_esc": true,
+        "pred_esc": true,
+        "gold_reply": "We hear you and want to get this sorted out right away. Please drop us a DM with your account email and the last 4 digits of the card being charged so our billing team can investigate: https://t.co/dm_spotify",
+        "pred_reply": "Hey there! We want to help look into this securely. Please send us a Direct Message with your account email address and details so our team can assist: https://t.co/dm_spotify",
+        "gold_quality_score": 5
+      },
+      {
+        "id": "eval_sample_005",
+        "input": "@SpotifyCares You guys charged me in GBP instead of EUR on my account.",
+        "gold_intent": "SUBSCRIPTION_BILLING",
+        "pred_intent": "SUBSCRIPTION_BILLING",
+        "gold_esc": true,
+        "pred_esc": false,
+        "gold_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+        "pred_reply": "Hey there! Student discount verification needs renewal every 12 months via SheerID. You can renew your status here: https://support.spotify.com/article/student-discount/ Let us know if you hit a snag!",
+        "gold_quality_score": 4
+      }
+    ]
+  }
+}

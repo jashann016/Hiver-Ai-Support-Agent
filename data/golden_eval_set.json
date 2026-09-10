@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "eval_bill_001",
+    "tweet_text": "@SpotifyCares I was charged twice for my Family plan this month (.99 x 2). Can you refund the duplicate charge?",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Financial transaction / refund request requires secure billing PII lookup and financial system authorization.",
+    "reference_resolution_type": "BILLING_REFUND_ESCALATE",
+    "ideal_reply": "Hey there! We would be happy to take a closer look at this duplicate charge. Please send us a DM with your account email address and payment details so we can assist further: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_bill_002",
+    "tweet_text": "@SpotifyCares Why did my student discount expire without notification? Im still enrolled in uni.",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Standard verification workflow with public self-service guide via SheerID portal.",
+    "reference_resolution_type": "SELF_SERVICE_GUIDE",
+    "ideal_reply": "Hi! Student discounts need to be reverified every 12 months through SheerID. You can renew your student verification here: https://support.spotify.com/article/student-discount/ Let us know if you run into issues!",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_bill_003",
+    "tweet_text": "@SpotifyCares My card was declined even though I have sufficient balance. How can I update payment method?",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Standard account payment update self-service procedure.",
+    "reference_resolution_type": "SELF_SERVICE_GUIDE",
+    "ideal_reply": "Hey! You can update your payment details anytime by logging into your account page at http://spotify.com/account under Manage plan. Give that a try in an incognito window!",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_bill_004",
+    "tweet_text": "@SpotifyCares I cancelled premium 3 months ago and you are still billing my credit card every month! This is theft!",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Severe billing dispute, repeated unauthorized charge claim requiring human investigation.",
+    "reference_resolution_type": "DISPUTE_ESCALATION",
+    "ideal_reply": "We hear you and want to get this sorted out right away. Please drop us a DM with your account email and the last 4 digits of the card being charged so our billing team can investigate: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_005",
+    "tweet_text": "@SpotifyCares You guys charged me in GBP instead of EUR on my account.",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Currency/regional billing mismatch requiring account modification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_006",
+    "tweet_text": "@spotifyCares Offline downloads keep disappearing every time I disconnect from Wi-Fi.",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Offline download sync and storage verification steps.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! A clean reinstall usually does the trick. Check out the exact steps for your device here: https://support.spotify.com/article/reinstall-spotify/ Give it a go and let us know how it goes!",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_007",
+    "tweet_text": "@spotifyCares Someone hacked my account, changed the email and created weird playlists. HELP!",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Account takeover / compromise requiring immediate security containment.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_008",
+    "tweet_text": "@spotifyCares My collaborative playlist is no longer letting my friends add songs.",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Collaborative playlist permission settings check.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hi! You can easily recover deleted playlists by logging in at http://spotify.com/account and clicking on Recover playlists on the left menu. Let us know if you find it!",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_009",
+    "tweet_text": "@spotifyCares Android Auto app shows blank screen when connected to car.",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Android Auto app cache and battery optimization guide.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_010",
+    "tweet_text": "@SpotifyCares Why can't we sort playlists by release date on mobile?",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Feature feedback acknowledgment.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_011",
+    "tweet_text": "@SpotifyCares I want to cancel my subscription immediately, customer service is terrible.",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Cancellation flow guidance with retention tone.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_012",
+    "tweet_text": "@SpotifyCares How do I switch my payment method from PayPal to Credit Card?",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Self-service payment update guidance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_013",
+    "tweet_text": "@SpotifyCares Offline downloads keep disappearing every time I disconnect from Wi-Fi.",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Offline download sync and storage verification steps.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! A clean reinstall usually does the trick. Check out the exact steps for your device here: https://support.spotify.com/article/reinstall-spotify/ Give it a go and let us know how it goes!",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_014",
+    "tweet_text": "@spotifyCares Can I merge two accounts without losing my saved music???",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Account merge request requiring customer support backend tool.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_015",
+    "tweet_text": "@SpotifyCares Accidentally deleted my Discover Weekly playlist from 2 weeks ago.",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery feature explanation.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hi! You can easily recover deleted playlists by logging in at http://spotify.com/account and clicking on Recover playlists on the left menu. Let us know if you find it!",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_016",
+    "tweet_text": "@SpotifyCares Spotify Connect is not finding my Sonos speakers on the same network.",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Local network permission and speaker discovery troubleshooting.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_017",
+    "tweet_text": "@SpotifyCares Please add lyrics for regional indie tracks.",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Lyrics partnership/Musixmatch feedback guidance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_018",
+    "tweet_text": "@spotifyCares I am cancelling because you removed my favorite artist's discography.",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Content licensing explanation + cancellation link.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_019",
+    "tweet_text": "@spotifyCares How do I switch my payment method from PayPal to Credit Card???",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Self-service payment update guidance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_020",
+    "tweet_text": "@SpotifyCares songs keep pausing after 10 seconds on iOS 17.5. Reinstalling did not fix it.",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Standard clean reinstall and cache clearance troubleshooting.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! A clean reinstall usually does the trick. Check out the exact steps for your device here: https://support.spotify.com/article/reinstall-spotify/ Give it a go and let us know how it goes!",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_021",
+    "tweet_text": "@SpotifyCares Someone hacked my account, changed the email and created weird playlists. HELP!",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Account takeover / compromise requiring immediate security containment.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_022",
+    "tweet_text": "@SpotifyCares My collaborative playlist is no longer letting my friends add songs.",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Collaborative playlist permission settings check.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hi! You can easily recover deleted playlists by logging in at http://spotify.com/account and clicking on Recover playlists on the left menu. Let us know if you find it!",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_023",
+    "tweet_text": "@SpotifyCares Spotify Connect is not finding my Sonos speakers on the same network.",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Local network permission and speaker discovery troubleshooting.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_024",
+    "tweet_text": "@SpotifyCares Why can't we sort playlists by release date on mobile?",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Feature feedback acknowledgment.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_025",
+    "tweet_text": "@SpotifyCares Your new price hike is ridiculous. Cancel my subscription right now.",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Cancellation self-service steps + feedback collection.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_026",
+    "tweet_text": "@spotifyCares Im trying to add my sibling to Duo plan but it says address does not match",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Address verification troubleshooting for Duo/Family.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_027",
+    "tweet_text": "@SpotifyCares Web player shows Error: Protected Content Not Enabled in Chrome.",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Browser DRM and widevine component enablement guide.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! A clean reinstall usually does the trick. Check out the exact steps for your device here: https://support.spotify.com/article/reinstall-spotify/ Give it a go and let us know how it goes!",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_028",
+    "tweet_text": "@SpotifyCares Someone hacked my account, changed the email and created weird playlists. HELP!",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Account takeover / compromise requiring immediate security containment.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_029",
+    "tweet_text": "@SpotifyCares My collaborative playlist is no longer letting my friends add songs.",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Collaborative playlist permission settings check.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hi! You can easily recover deleted playlists by logging in at http://spotify.com/account and clicking on Recover playlists on the left menu. Let us know if you find it!",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_030",
+    "tweet_text": "@spotifyCares Android Auto app shows blank screen when connected to car.",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Android Auto app cache and battery optimization guide.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_031",
+    "tweet_text": "@SpotifyCares Please add lyrics for regional indie tracks.",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Lyrics partnership/Musixmatch feedback guidance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_032",
+    "tweet_text": "@SpotifyCares Moving to Apple Music. How do I delete my data and delete account under GDPR?",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "GDPR Right-to-be-Forgotten account deletion request requiring compliance handling.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_033",
+    "tweet_text": "@SpotifyCares Can I use a gift card for a Family plan subscription?",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Policy clarification on gift cards.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_034",
+    "tweet_text": "@spotifyCares app immediately crashes on launch on my Samsung S23 after latest update.",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Known app crash troubleshooting steps (clear cache/data).",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! A clean reinstall usually does the trick. Check out the exact steps for your device here: https://support.spotify.com/article/reinstall-spotify/ Give it a go and let us know how it goes!",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_035",
+    "tweet_text": "@SpotifyCares My account got disabled unexpectedly for no reason.",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Disabled account review requiring internal trust & safety verification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_036",
+    "tweet_text": "@spotifyCares All my playlists disappeared overnight! 5 years of music gone!",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Self-service playlist recovery tool walkthrough.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hi! You can easily recover deleted playlists by logging in at http://spotify.com/account and clicking on Recover playlists on the left menu. Let us know if you find it!",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_037",
+    "tweet_text": "@spotifyCares Android Auto app shows blank screen when connected to car.",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Android Auto app cache and battery optimization guide.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_038",
+    "tweet_text": "@SpotifyCares Why can't we sort playlists by release date on mobile?",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Feature feedback acknowledgment.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_039",
+    "tweet_text": "@SpotifyCares Moving to Apple Music. How do I delete my data and delete account under GDPR?",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "GDPR Right-to-be-Forgotten account deletion request requiring compliance handling.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_040",
+    "tweet_text": "I got charged after signing up for the free trial @SpotifyCares",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Billing query after trial transition requiring account check.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_041",
+    "tweet_text": "@SpotifyCares songs keep pausing after 10 seconds on iOS 17.5. Reinstalling did not fix it.",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Standard clean reinstall and cache clearance troubleshooting.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! A clean reinstall usually does the trick. Check out the exact steps for your device here: https://support.spotify.com/article/reinstall-spotify/ Give it a go and let us know how it goes!",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_042",
+    "tweet_text": "@SpotifyCares I forgot my password and the reset link is not arriving in my email inbox.",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": false,
+    "escalation_reason": "Password reset email troubleshooting (spam folder, alias check).",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_043",
+    "tweet_text": "@SpotifyCares All my playlists disappeared overnight! 5 years of music gone!",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Self-service playlist recovery tool walkthrough.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hi! You can easily recover deleted playlists by logging in at http://spotify.com/account and clicking on Recover playlists on the left menu. Let us know if you find it!",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_044",
+    "tweet_text": "@SpotifyCares Apple Watch app won't sync offline tracks for running.",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Apple Watch companion app sync steps.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_045",
+    "tweet_text": "@SpotifyCares Why can't we sort playlists by release date on mobile?",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Feature feedback acknowledgment.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_046",
+    "tweet_text": "@SpotifyCares Moving to Apple Music. How do I delete my data and delete account under GDPR?",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "GDPR Right-to-be-Forgotten account deletion request requiring compliance handling.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_047",
+    "tweet_text": "@SpotifyCares How do I switch my payment method from PayPal to Credit Card?",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Self-service payment update guidance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_048",
+    "tweet_text": "@SpotifyCares app immediately crashes on launch on my Samsung S23 after latest update.",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Known app crash troubleshooting steps (clear cache/data).",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! A clean reinstall usually does the trick. Check out the exact steps for your device here: https://support.spotify.com/article/reinstall-spotify/ Give it a go and let us know how it goes!",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_049",
+    "tweet_text": "@spotifyCares I forgot my password and the reset link is not arriving in my email inbox.",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": false,
+    "escalation_reason": "Password reset email troubleshooting (spam folder, alias check).",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_050",
+    "tweet_text": "@SpotifyCares My collaborative playlist is no longer letting my friends add songs.",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Collaborative playlist permission settings check.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hi! You can easily recover deleted playlists by logging in at http://spotify.com/account and clicking on Recover playlists on the left menu. Let us know if you find it!",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_051",
+    "tweet_text": "@SpotifyCares PS5 Spotify app gives error code WS-116521-6 on login.",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Console linking/unlinking authorization steps.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_052",
+    "tweet_text": "@SpotifyCares Please bring back the old UI for the desktop queue tab!",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Product feedback logging.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_053",
+    "tweet_text": "@spotifyCares I want to cancel my subscription immediately, customer service is terrible.",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Cancellation flow guidance with retention tone.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_054",
+    "tweet_text": "@SpotifyCares You guys charged me in GBP instead of EUR on my account.",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Currency/regional billing mismatch requiring account modification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_055",
+    "tweet_text": "@spotifyCares app immediately crashes on launch on my Samsung S23 after latest update.",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Known app crash troubleshooting steps (clear cache/data).",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! A clean reinstall usually does the trick. Check out the exact steps for your device here: https://support.spotify.com/article/reinstall-spotify/ Give it a go and let us know how it goes!",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_056",
+    "tweet_text": "@SpotifyCares My account got disabled unexpectedly for no reason.",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Disabled account review requiring internal trust & safety verification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_057",
+    "tweet_text": "@spotifyCares My collaborative playlist is no longer letting my friends add songs.",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Collaborative playlist permission settings check.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hi! You can easily recover deleted playlists by logging in at http://spotify.com/account and clicking on Recover playlists on the left menu. Let us know if you find it!",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_058",
+    "tweet_text": "@SpotifyCares Spotify Connect is not finding my Sonos speakers on the same network.",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Local network permission and speaker discovery troubleshooting.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_059",
+    "tweet_text": "@spotifyCares pls add lyrics for regional indie tracks.",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Lyrics partnership/Musixmatch feedback guidance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_060",
+    "tweet_text": "@spotifyCares Moving to Apple Music. How do I delete my data and delete account under GDPR???",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "GDPR Right-to-be-Forgotten account deletion request requiring compliance handling.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_061",
+    "tweet_text": "I got charged after signing up for the free trial @spotifyCares",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Billing query after trial transition requiring account check.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_062",
+    "tweet_text": "@SpotifyCares High pitch static noise whenever I play any track via Bluetooth.",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Hardware/Bluetooth audio streaming troubleshooting.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! A clean reinstall usually does the trick. Check out the exact steps for your device here: https://support.spotify.com/article/reinstall-spotify/ Give it a go and let us know how it goes!",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_063",
+    "tweet_text": "@SpotifyCares I forgot my password and the reset link is not arriving in my email inbox.",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": false,
+    "escalation_reason": "Password reset email troubleshooting (spam folder, alias check).",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_064",
+    "tweet_text": "@spotifyCares Liked songs count went from 3,000 to 0 suddenly.",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Sync issue troubleshooting / relog instruction.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hi! You can easily recover deleted playlists by logging in at http://spotify.com/account and clicking on Recover playlists on the left menu. Let us know if you find it!",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_065",
+    "tweet_text": "@SpotifyCares Spotify Connect is not finding my Sonos speakers on the same network.",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Local network permission and speaker discovery troubleshooting.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_066",
+    "tweet_text": "@SpotifyCares Please add lyrics for regional indie tracks.",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Lyrics partnership/Musixmatch feedback guidance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_067",
+    "tweet_text": "@spotifyCares Your new price hike is ridiculous. Cancel my subscription right now.",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Cancellation self-service steps + feedback collection.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_068",
+    "tweet_text": "I got charged after signing up for the free trial @SpotifyCares",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Billing query after trial transition requiring account check.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_069",
+    "tweet_text": "@SpotifyCares High pitch static noise whenever I play any track via Bluetooth.",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Hardware/Bluetooth audio streaming troubleshooting.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! A clean reinstall usually does the trick. Check out the exact steps for your device here: https://support.spotify.com/article/reinstall-spotify/ Give it a go and let us know how it goes!",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_070",
+    "tweet_text": "@spotifyCares I lost access to my 2FA authentication app. How do I get back in???",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "2FA bypass / recovery requires human identity verification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_071",
+    "tweet_text": "@SpotifyCares Liked songs count went from 3,000 to 0 suddenly.",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Sync issue troubleshooting / relog instruction.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hi! You can easily recover deleted playlists by logging in at http://spotify.com/account and clicking on Recover playlists on the left menu. Let us know if you find it!",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_072",
+    "tweet_text": "@SpotifyCares Android Auto app shows blank screen when connected to car.",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Android Auto app cache and battery optimization guide.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_073",
+    "tweet_text": "@SpotifyCares Please add lyrics for regional indie tracks.",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Lyrics partnership/Musixmatch feedback guidance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_074",
+    "tweet_text": "@SpotifyCares I want to cancel my subscription immediately, customer service is terrible.",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Cancellation flow guidance with retention tone.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_075",
+    "tweet_text": "I got charged after signing up for the free trial @spotifyCares",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Billing query after trial transition requiring account check.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_076",
+    "tweet_text": "@SpotifyCares songs keep pausing after 10 seconds on iOS 17.5. Reinstalling did not fix it.",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Standard clean reinstall and cache clearance troubleshooting.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! A clean reinstall usually does the trick. Check out the exact steps for your device here: https://support.spotify.com/article/reinstall-spotify/ Give it a go and let us know how it goes!",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_077",
+    "tweet_text": "@SpotifyCares Someone hacked my account, changed the email and created weird playlists. HELP!",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Account takeover / compromise requiring immediate security containment.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_078",
+    "tweet_text": "@SpotifyCares All my playlists disappeared overnight! 5 years of music gone!",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Self-service playlist recovery tool walkthrough.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hi! You can easily recover deleted playlists by logging in at http://spotify.com/account and clicking on Recover playlists on the left menu. Let us know if you find it!",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_079",
+    "tweet_text": "@SpotifyCares Android Auto app shows blank screen when connected to car.",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Android Auto app cache and battery optimization guide.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_080",
+    "tweet_text": "@SpotifyCares Please bring back the old UI for the desktop queue tab!",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Product feedback logging.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_081",
+    "tweet_text": "@SpotifyCares Your new price hike is ridiculous. Cancel my subscription right now.",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Cancellation self-service steps + feedback collection.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_082",
+    "tweet_text": "@spotifyCares Can I use a gift card for a Family plan subscription???",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Policy clarification on gift cards.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_083",
+    "tweet_text": "@SpotifyCares High pitch static noise whenever I play any track via Bluetooth.",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Hardware/Bluetooth audio streaming troubleshooting.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! A clean reinstall usually does the trick. Check out the exact steps for your device here: https://support.spotify.com/article/reinstall-spotify/ Give it a go and let us know how it goes!",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_084",
+    "tweet_text": "@SpotifyCares I lost access to my 2FA authentication app. How do I get back in?",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "2FA bypass / recovery requires human identity verification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_085",
+    "tweet_text": "@spotifyCares Liked songs count went from 3,000 to 0 suddenly.",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Sync issue troubleshooting / relog instruction.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hi! You can easily recover deleted playlists by logging in at http://spotify.com/account and clicking on Recover playlists on the left menu. Let us know if you find it!",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_086",
+    "tweet_text": "@SpotifyCares PS5 Spotify app gives error code WS-116521-6 on login.",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Console linking/unlinking authorization steps.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_087",
+    "tweet_text": "@SpotifyCares Please bring back the old UI for the desktop queue tab!",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Product feedback logging.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_088",
+    "tweet_text": "@SpotifyCares Moving to Apple Music. How do I delete my data and delete account under GDPR?",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "GDPR Right-to-be-Forgotten account deletion request requiring compliance handling.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_089",
+    "tweet_text": "@spotifyCares Im trying to add my sibling to Duo plan but it says address does not match",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Address verification troubleshooting for Duo/Family.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_090",
+    "tweet_text": "@SpotifyCares app immediately crashes on launch on my Samsung S23 after latest update.",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Known app crash troubleshooting steps (clear cache/data).",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! A clean reinstall usually does the trick. Check out the exact steps for your device here: https://support.spotify.com/article/reinstall-spotify/ Give it a go and let us know how it goes!",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_091",
+    "tweet_text": "@spotifyCares My account got disabled unexpectedly for no reason.",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Disabled account review requiring internal trust & safety verification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_092",
+    "tweet_text": "@SpotifyCares Liked songs count went from 3,000 to 0 suddenly.",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Sync issue troubleshooting / relog instruction.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hi! You can easily recover deleted playlists by logging in at http://spotify.com/account and clicking on Recover playlists on the left menu. Let us know if you find it!",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_093",
+    "tweet_text": "@SpotifyCares Apple Watch app won't sync offline tracks for running.",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Apple Watch companion app sync steps.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_094",
+    "tweet_text": "@spotifyCares pls bring back the old UI for the desktop queue tab!",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Product feedback logging.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_095",
+    "tweet_text": "@SpotifyCares Moving to Apple Music. How do I delete my data and delete account under GDPR?",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "GDPR Right-to-be-Forgotten account deletion request requiring compliance handling.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_096",
+    "tweet_text": "@SpotifyCares Can I use a gift card for a Family plan subscription?",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Policy clarification on gift cards.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_097",
+    "tweet_text": "@SpotifyCares Web player shows Error: Protected Content Not Enabled in Chrome.",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Browser DRM and widevine component enablement guide.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! A clean reinstall usually does the trick. Check out the exact steps for your device here: https://support.spotify.com/article/reinstall-spotify/ Give it a go and let us know how it goes!",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_098",
+    "tweet_text": "@spotifyCares I lost access to my 2FA authentication app. How do I get back in???",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "2FA bypass / recovery requires human identity verification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_099",
+    "tweet_text": "@SpotifyCares My collaborative playlist is no longer letting my friends add songs.",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Collaborative playlist permission settings check.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hi! You can easily recover deleted playlists by logging in at http://spotify.com/account and clicking on Recover playlists on the left menu. Let us know if you find it!",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_100",
+    "tweet_text": "@SpotifyCares Android Auto app shows blank screen when connected to car.",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Android Auto app cache and battery optimization guide.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_101",
+    "tweet_text": "@SpotifyCares Please add lyrics for regional indie tracks.",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Lyrics partnership/Musixmatch feedback guidance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_102",
+    "tweet_text": "@SpotifyCares I am cancelling because you removed my favorite artist's discography.",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Content licensing explanation + cancellation link.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_103",
+    "tweet_text": "@SpotifyCares How do I switch my payment method from PayPal to Credit Card?",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Self-service payment update guidance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_104",
+    "tweet_text": "@spotifyCares app immediately crashes on launch on my Samsung S23 after latest update.",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Known app crash troubleshooting steps (clear cache/data).",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! A clean reinstall usually does the trick. Check out the exact steps for your device here: https://support.spotify.com/article/reinstall-spotify/ Give it a go and let us know how it goes!",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_105",
+    "tweet_text": "@SpotifyCares I forgot my password and the reset link is not arriving in my email inbox.",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": false,
+    "escalation_reason": "Password reset email troubleshooting (spam folder, alias check).",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_106",
+    "tweet_text": "@spotifyCares All my playlists disappeared overnight! 5 years of music gone!",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Self-service playlist recovery tool walkthrough.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hi! You can easily recover deleted playlists by logging in at http://spotify.com/account and clicking on Recover playlists on the left menu. Let us know if you find it!",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_107",
+    "tweet_text": "@SpotifyCares PS5 Spotify app gives error code WS-116521-6 on login.",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Console linking/unlinking authorization steps.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_108",
+    "tweet_text": "@spotifyCares pls add lyrics for regional indie tracks.",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Lyrics partnership/Musixmatch feedback guidance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_109",
+    "tweet_text": "@SpotifyCares I want to cancel my subscription immediately, customer service is terrible.",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Cancellation flow guidance with retention tone.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_110",
+    "tweet_text": "@SpotifyCares How do I switch my payment method from PayPal to Credit Card?",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Self-service payment update guidance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_111",
+    "tweet_text": "@SpotifyCares app immediately crashes on launch on my Samsung S23 after latest update.",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Known app crash troubleshooting steps (clear cache/data).",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! A clean reinstall usually does the trick. Check out the exact steps for your device here: https://support.spotify.com/article/reinstall-spotify/ Give it a go and let us know how it goes!",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_112",
+    "tweet_text": "@SpotifyCares Can I merge two accounts without losing my saved music?",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Account merge request requiring customer support backend tool.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_113",
+    "tweet_text": "@SpotifyCares My collaborative playlist is no longer letting my friends add songs.",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Collaborative playlist permission settings check.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hi! You can easily recover deleted playlists by logging in at http://spotify.com/account and clicking on Recover playlists on the left menu. Let us know if you find it!",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_114",
+    "tweet_text": "@SpotifyCares Android Auto app shows blank screen when connected to car.",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Android Auto app cache and battery optimization guide.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_115",
+    "tweet_text": "@SpotifyCares When is Spotify HiFi / Lossless audio finally releasing? We've waited years.",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Standard product roadmap acknowledgment without escalation.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_116",
+    "tweet_text": "@SpotifyCares I am cancelling because you removed my favorite artist's discography.",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Content licensing explanation + cancellation link.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_117",
+    "tweet_text": "@SpotifyCares You guys charged me in GBP instead of EUR on my account.",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Currency/regional billing mismatch requiring account modification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_118",
+    "tweet_text": "@SpotifyCares app immediately crashes on launch on my Samsung S23 after latest update.",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Known app crash troubleshooting steps (clear cache/data).",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! A clean reinstall usually does the trick. Check out the exact steps for your device here: https://support.spotify.com/article/reinstall-spotify/ Give it a go and let us know how it goes!",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_119",
+    "tweet_text": "@SpotifyCares Someone hacked my account, changed the email and created weird playlists. HELP!",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Account takeover / compromise requiring immediate security containment.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_120",
+    "tweet_text": "@spotifyCares Accidentally deleted my Discover Weekly playlist from 2 weeks ago.",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery feature explanation.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hi! You can easily recover deleted playlists by logging in at http://spotify.com/account and clicking on Recover playlists on the left menu. Let us know if you find it!",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_121",
+    "tweet_text": "@SpotifyCares Spotify Connect is not finding my Sonos speakers on the same network.",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Local network permission and speaker discovery troubleshooting.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_122",
+    "tweet_text": "@spotifyCares Why can't we sort playlists by release date on mobile???",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Feature feedback acknowledgment.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_123",
+    "tweet_text": "@SpotifyCares I want to cancel my subscription immediately, customer service is terrible.",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Cancellation flow guidance with retention tone.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_124",
+    "tweet_text": "@spotifyCares How do I switch my payment method from PayPal to Credit Card???",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Self-service payment update guidance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_125",
+    "tweet_text": "@spotifyCares Offline downloads keep disappearing every time I disconnect from Wi-Fi.",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Offline download sync and storage verification steps.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! A clean reinstall usually does the trick. Check out the exact steps for your device here: https://support.spotify.com/article/reinstall-spotify/ Give it a go and let us know how it goes!",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_126",
+    "tweet_text": "@SpotifyCares My account got disabled unexpectedly for no reason.",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Disabled account review requiring internal trust & safety verification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_127",
+    "tweet_text": "@SpotifyCares Liked songs count went from 3,000 to 0 suddenly.",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Sync issue troubleshooting / relog instruction.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hi! You can easily recover deleted playlists by logging in at http://spotify.com/account and clicking on Recover playlists on the left menu. Let us know if you find it!",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_128",
+    "tweet_text": "@SpotifyCares Spotify Connect is not finding my Sonos speakers on the same network.",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Local network permission and speaker discovery troubleshooting.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_129",
+    "tweet_text": "@SpotifyCares Please add lyrics for regional indie tracks.",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Lyrics partnership/Musixmatch feedback guidance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_130",
+    "tweet_text": "@SpotifyCares Your new price hike is ridiculous. Cancel my subscription right now.",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Cancellation self-service steps + feedback collection.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_131",
+    "tweet_text": "@SpotifyCares Can I use a gift card for a Family plan subscription?",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Policy clarification on gift cards.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_132",
+    "tweet_text": "@SpotifyCares High pitch static noise whenever I play any track via Bluetooth.",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Hardware/Bluetooth audio streaming troubleshooting.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! A clean reinstall usually does the trick. Check out the exact steps for your device here: https://support.spotify.com/article/reinstall-spotify/ Give it a go and let us know how it goes!",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_133",
+    "tweet_text": "@SpotifyCares Someone hacked my account, changed the email and created weird playlists. HELP!",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Account takeover / compromise requiring immediate security containment.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_134",
+    "tweet_text": "@SpotifyCares My collaborative playlist is no longer letting my friends add songs.",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Collaborative playlist permission settings check.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hi! You can easily recover deleted playlists by logging in at http://spotify.com/account and clicking on Recover playlists on the left menu. Let us know if you find it!",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_135",
+    "tweet_text": "@SpotifyCares Android Auto app shows blank screen when connected to car.",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Android Auto app cache and battery optimization guide.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_136",
+    "tweet_text": "@SpotifyCares Why can't we sort playlists by release date on mobile?",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Feature feedback acknowledgment.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_137",
+    "tweet_text": "@SpotifyCares I am cancelling because you removed my favorite artist's discography.",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Content licensing explanation + cancellation link.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_138",
+    "tweet_text": "I got charged after signing up for the free trial @SpotifyCares",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Billing query after trial transition requiring account check.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_139",
+    "tweet_text": "@SpotifyCares High pitch static noise whenever I play any track via Bluetooth.",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Hardware/Bluetooth audio streaming troubleshooting.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! A clean reinstall usually does the trick. Check out the exact steps for your device here: https://support.spotify.com/article/reinstall-spotify/ Give it a go and let us know how it goes!",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_140",
+    "tweet_text": "@SpotifyCares My account got disabled unexpectedly for no reason.",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Disabled account review requiring internal trust & safety verification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_141",
+    "tweet_text": "@SpotifyCares Liked songs count went from 3,000 to 0 suddenly.",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Sync issue troubleshooting / relog instruction.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hi! You can easily recover deleted playlists by logging in at http://spotify.com/account and clicking on Recover playlists on the left menu. Let us know if you find it!",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_142",
+    "tweet_text": "@SpotifyCares Android Auto app shows blank screen when connected to car.",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Android Auto app cache and battery optimization guide.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_143",
+    "tweet_text": "@spotifyCares pls bring back the old UI for the desktop queue tab!",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Product feedback logging.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_144",
+    "tweet_text": "@spotifyCares I want to cancel my subscription immediately, customer service is terrible.",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Cancellation flow guidance with retention tone.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_145",
+    "tweet_text": "@spotifyCares Im trying to add my sibling to Duo plan but it says address does not match",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Address verification troubleshooting for Duo/Family.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_146",
+    "tweet_text": "@spotifyCares app immediately crashes on launch on my Samsung S23 after latest update.",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Known app crash troubleshooting steps (clear cache/data).",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! A clean reinstall usually does the trick. Check out the exact steps for your device here: https://support.spotify.com/article/reinstall-spotify/ Give it a go and let us know how it goes!",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_147",
+    "tweet_text": "@spotifyCares I lost access to my 2FA authentication app. How do I get back in???",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "2FA bypass / recovery requires human identity verification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_148",
+    "tweet_text": "@SpotifyCares Accidentally deleted my Discover Weekly playlist from 2 weeks ago.",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery feature explanation.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hi! You can easily recover deleted playlists by logging in at http://spotify.com/account and clicking on Recover playlists on the left menu. Let us know if you find it!",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_149",
+    "tweet_text": "@spotifyCares Android Auto app shows blank screen when connected to car.",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Android Auto app cache and battery optimization guide.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_150",
+    "tweet_text": "@spotifyCares Why can't we sort playlists by release date on mobile???",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Feature feedback acknowledgment.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_151",
+    "tweet_text": "@spotifyCares Moving to Apple Music. How do I delete my data and delete account under GDPR???",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "GDPR Right-to-be-Forgotten account deletion request requiring compliance handling.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_152",
+    "tweet_text": "@spotifyCares Im trying to add my sibling to Duo plan but it says address does not match",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Address verification troubleshooting for Duo/Family.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_153",
+    "tweet_text": "@SpotifyCares High pitch static noise whenever I play any track via Bluetooth.",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Hardware/Bluetooth audio streaming troubleshooting.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! A clean reinstall usually does the trick. Check out the exact steps for your device here: https://support.spotify.com/article/reinstall-spotify/ Give it a go and let us know how it goes!",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_154",
+    "tweet_text": "@spotifyCares I forgot my password and the reset link is not arriving in my email inbox.",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": false,
+    "escalation_reason": "Password reset email troubleshooting (spam folder, alias check).",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_155",
+    "tweet_text": "@SpotifyCares All my playlists disappeared overnight! 5 years of music gone!",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Self-service playlist recovery tool walkthrough.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hi! You can easily recover deleted playlists by logging in at http://spotify.com/account and clicking on Recover playlists on the left menu. Let us know if you find it!",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_156",
+    "tweet_text": "@SpotifyCares Apple Watch app won't sync offline tracks for running.",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Apple Watch companion app sync steps.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_157",
+    "tweet_text": "@SpotifyCares When is Spotify HiFi / Lossless audio finally releasing? We've waited years.",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Standard product roadmap acknowledgment without escalation.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_158",
+    "tweet_text": "@SpotifyCares Moving to Apple Music. How do I delete my data and delete account under GDPR?",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "GDPR Right-to-be-Forgotten account deletion request requiring compliance handling.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_159",
+    "tweet_text": "@spotifyCares You guys charged me in GBP instead of EUR on my account.",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Currency/regional billing mismatch requiring account modification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_160",
+    "tweet_text": "@SpotifyCares Offline downloads keep disappearing every time I disconnect from Wi-Fi.",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Offline download sync and storage verification steps.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! A clean reinstall usually does the trick. Check out the exact steps for your device here: https://support.spotify.com/article/reinstall-spotify/ Give it a go and let us know how it goes!",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_161",
+    "tweet_text": "@spotifyCares My account got disabled unexpectedly for no reason.",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Disabled account review requiring internal trust & safety verification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_162",
+    "tweet_text": "@SpotifyCares My collaborative playlist is no longer letting my friends add songs.",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Collaborative playlist permission settings check.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hi! You can easily recover deleted playlists by logging in at http://spotify.com/account and clicking on Recover playlists on the left menu. Let us know if you find it!",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_163",
+    "tweet_text": "@spotifyCares Android Auto app shows blank screen when connected to car.",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Android Auto app cache and battery optimization guide.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_164",
+    "tweet_text": "@SpotifyCares Please add lyrics for regional indie tracks.",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Lyrics partnership/Musixmatch feedback guidance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_165",
+    "tweet_text": "@SpotifyCares I am cancelling because you removed my favorite artist's discography.",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Content licensing explanation + cancellation link.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_166",
+    "tweet_text": "@spotifyCares How do I switch my payment method from PayPal to Credit Card???",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Self-service payment update guidance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_167",
+    "tweet_text": "@spotifyCares Web player shows Error: Protected Content Not Enabled in Chrome.",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Browser DRM and widevine component enablement guide.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! A clean reinstall usually does the trick. Check out the exact steps for your device here: https://support.spotify.com/article/reinstall-spotify/ Give it a go and let us know how it goes!",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_168",
+    "tweet_text": "@SpotifyCares Can I merge two accounts without losing my saved music?",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Account merge request requiring customer support backend tool.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_169",
+    "tweet_text": "@SpotifyCares Accidentally deleted my Discover Weekly playlist from 2 weeks ago.",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery feature explanation.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hi! You can easily recover deleted playlists by logging in at http://spotify.com/account and clicking on Recover playlists on the left menu. Let us know if you find it!",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_170",
+    "tweet_text": "@SpotifyCares Android Auto app shows blank screen when connected to car.",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Android Auto app cache and battery optimization guide.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_171",
+    "tweet_text": "@SpotifyCares Please add lyrics for regional indie tracks.",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Lyrics partnership/Musixmatch feedback guidance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_172",
+    "tweet_text": "@SpotifyCares Your new price hike is ridiculous. Cancel my subscription right now.",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Cancellation self-service steps + feedback collection.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_173",
+    "tweet_text": "@spotifyCares How do I switch my payment method from PayPal to Credit Card???",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Self-service payment update guidance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_174",
+    "tweet_text": "@spotifyCares app immediately crashes on launch on my Samsung S23 after latest update.",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Known app crash troubleshooting steps (clear cache/data).",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! A clean reinstall usually does the trick. Check out the exact steps for your device here: https://support.spotify.com/article/reinstall-spotify/ Give it a go and let us know how it goes!",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_175",
+    "tweet_text": "@SpotifyCares Someone hacked my account, changed the email and created weird playlists. HELP!",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Account takeover / compromise requiring immediate security containment.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_176",
+    "tweet_text": "@SpotifyCares All my playlists disappeared overnight! 5 years of music gone!",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Self-service playlist recovery tool walkthrough.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hi! You can easily recover deleted playlists by logging in at http://spotify.com/account and clicking on Recover playlists on the left menu. Let us know if you find it!",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_177",
+    "tweet_text": "@spotifyCares Apple Watch app won't sync offline tracks for running.",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Apple Watch companion app sync steps.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_178",
+    "tweet_text": "@SpotifyCares Please bring back the old UI for the desktop queue tab!",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Product feedback logging.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_179",
+    "tweet_text": "@spotifyCares I want to cancel my subscription immediately, customer service is terrible.",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Cancellation flow guidance with retention tone.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_180",
+    "tweet_text": "I got charged after signing up for the free trial @spotifyCares",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Billing query after trial transition requiring account check.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_181",
+    "tweet_text": "@SpotifyCares Offline downloads keep disappearing every time I disconnect from Wi-Fi.",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Offline download sync and storage verification steps.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! A clean reinstall usually does the trick. Check out the exact steps for your device here: https://support.spotify.com/article/reinstall-spotify/ Give it a go and let us know how it goes!",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_182",
+    "tweet_text": "@SpotifyCares My account got disabled unexpectedly for no reason.",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Disabled account review requiring internal trust & safety verification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_183",
+    "tweet_text": "@SpotifyCares Accidentally deleted my Discover Weekly playlist from 2 weeks ago.",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery feature explanation.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hi! You can easily recover deleted playlists by logging in at http://spotify.com/account and clicking on Recover playlists on the left menu. Let us know if you find it!",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_184",
+    "tweet_text": "@SpotifyCares Android Auto app shows blank screen when connected to car.",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Android Auto app cache and battery optimization guide.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_185",
+    "tweet_text": "@SpotifyCares Why can't we sort playlists by release date on mobile?",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Feature feedback acknowledgment.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_186",
+    "tweet_text": "@SpotifyCares I want to cancel my subscription immediately, customer service is terrible.",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Cancellation flow guidance with retention tone.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_187",
+    "tweet_text": "@spotifyCares You guys charged me in GBP instead of EUR on my account.",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Currency/regional billing mismatch requiring account modification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_188",
+    "tweet_text": "@spotifyCares app immediately crashes on launch on my Samsung S23 after latest update.",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Known app crash troubleshooting steps (clear cache/data).",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! A clean reinstall usually does the trick. Check out the exact steps for your device here: https://support.spotify.com/article/reinstall-spotify/ Give it a go and let us know how it goes!",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_189",
+    "tweet_text": "@SpotifyCares I lost access to my 2FA authentication app. How do I get back in?",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "2FA bypass / recovery requires human identity verification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_190",
+    "tweet_text": "@spotifyCares My collaborative playlist is no longer letting my friends add songs.",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Collaborative playlist permission settings check.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hi! You can easily recover deleted playlists by logging in at http://spotify.com/account and clicking on Recover playlists on the left menu. Let us know if you find it!",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_191",
+    "tweet_text": "@spotifyCares PS5 spotify app gives error code WS-116521-6 on login.",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Console linking/unlinking authorization steps.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_192",
+    "tweet_text": "@spotifyCares pls bring back the old UI for the desktop queue tab!",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Product feedback logging.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_193",
+    "tweet_text": "@spotifyCares I want to cancel my subscription immediately, customer service is terrible.",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Cancellation flow guidance with retention tone.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_194",
+    "tweet_text": "@SpotifyCares You guys charged me in GBP instead of EUR on my account.",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Currency/regional billing mismatch requiring account modification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_195",
+    "tweet_text": "@SpotifyCares High pitch static noise whenever I play any track via Bluetooth.",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Hardware/Bluetooth audio streaming troubleshooting.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! A clean reinstall usually does the trick. Check out the exact steps for your device here: https://support.spotify.com/article/reinstall-spotify/ Give it a go and let us know how it goes!",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_196",
+    "tweet_text": "@SpotifyCares Can I merge two accounts without losing my saved music?",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Account merge request requiring customer support backend tool.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_197",
+    "tweet_text": "@spotifyCares Liked songs count went from 3,000 to 0 suddenly.",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Sync issue troubleshooting / relog instruction.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hi! You can easily recover deleted playlists by logging in at http://spotify.com/account and clicking on Recover playlists on the left menu. Let us know if you find it!",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_198",
+    "tweet_text": "@SpotifyCares PS5 Spotify app gives error code WS-116521-6 on login.",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Console linking/unlinking authorization steps.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_199",
+    "tweet_text": "@SpotifyCares Why can't we sort playlists by release date on mobile?",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Feature feedback acknowledgment.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article for details on this: https://support.spotify.com Let us know if you need anything else.",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_200",
+    "tweet_text": "@spotifyCares Moving to Apple Music. How do I delete my data and delete account under GDPR???",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "GDPR Right-to-be-Forgotten account deletion request requiring compliance handling.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  }
+]
