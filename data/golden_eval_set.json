@@ -1998,5 +1998,3005 @@
     "reference_resolution_type": "ESCALATE",
     "ideal_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
     "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_201",
+    "tweet_text": "Why was I charged .99 when my plan is .99 student plan @spotifycares",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Disputed pricing tier transition.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_202",
+    "tweet_text": "@SpotifyCares local files are not syncing from PC to iPhone",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Local files network sync walkthrough.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_203",
+    "tweet_text": "@SpotifyCares I did not receive my password reset email after clicking forgot password 5 times",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": false,
+    "escalation_reason": "Password email delivery check (spam/alias).",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_204",
+    "tweet_text": "@SpotifyCares All songs in my 8-year-old favorite playlist were deleted by my sister",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery tool in web portal.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_205",
+    "tweet_text": "@SpotifyCares Roku TV app crashes immediately when trying to select song",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Roku TV app cache clearance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_206",
+    "tweet_text": "@SpotifyCares Why did you change the heart button to a plus sign? Bring back the heart!",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "UI feedback collection.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_207",
+    "tweet_text": "@SpotifyCares Please delete all my personal data and account under California CCPA laws",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "CCPA privacy regulatory deletion request.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_208",
+    "tweet_text": "@SpotifyCares My credit card expired and payment failed, how to update without losing playlist order?",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Self-service payment update guidance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_209",
+    "tweet_text": "@SpotifyCares local files are not syncing from PC to iPhone",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Local files network sync walkthrough.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_210",
+    "tweet_text": "@SpotifyCares Can I unlink my Spotify from an old Facebook account I lost access to?",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "OAuth authentication decoupling requiring backend action.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_211",
+    "tweet_text": "@spotifycares Can I recover a playlist I accidentally deleted yesterday?",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery feature link.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_212",
+    "tweet_text": "@spotifycares Google Nest Mini says spotify account is not linked even though it is",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Google Home assistant re-authentication.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_213",
+    "tweet_text": "@SpotifyCares Why did you change the heart button to a plus sign? Bring back the heart!",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "UI feedback collection.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_214",
+    "tweet_text": "@spotifycares Cancelled my subscription last week but still got an invoice today",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "Post-cancellation billing verification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_215",
+    "tweet_text": "@SpotifyCares Is annual subscription cheaper than monthly Premium?",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Pricing inquiry self-service link.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_216",
+    "tweet_text": "@SpotifyCares local files are not syncing from PC to iPhone",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Local files network sync walkthrough.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_217",
+    "tweet_text": "@SpotifyCares I did not receive my password reset email after clicking forgot password 5 times",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": false,
+    "escalation_reason": "Password email delivery check (spam/alias).",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_218",
+    "tweet_text": "@SpotifyCares Can I recover a playlist I accidentally deleted yesterday?",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery feature link.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_219",
+    "tweet_text": "@SpotifyCares Roku TV app crashes immediately when trying to select song",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Roku TV app cache clearance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_220",
+    "tweet_text": "@spotifycares Why did you change the heart button to a plus sign? Bring back the heart!",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "UI feedback collection.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_221",
+    "tweet_text": "@SpotifyCares I am cancelling because YouTube Music is much cheaper for families",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Cancellation flow with retention support.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_222",
+    "tweet_text": "Why was I charged .99 when my plan is .99 student plan @spotifycares",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Disputed pricing tier transition.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_223",
+    "tweet_text": "@SpotifyCares audio is distorted and scratchy through AirPods Pro",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Bluetooth audio cache reset steps.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_224",
+    "tweet_text": "@SpotifyCares Someone in another country logged into my account and changed the language to Russian",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Account takeover requiring immediate security containment.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_225",
+    "tweet_text": "@spotifycares Can I recover a playlist I accidentally deleted yesterday?",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery feature link.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_226",
+    "tweet_text": "@SpotifyCares Spotify Connect no longer detects my Amazon Echo Dot in the living room",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Echo / Alexa skill relinking and Wi-Fi check.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_227",
+    "tweet_text": "@SpotifyCares When will animated Canvas backgrounds be available in my country?",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Feature availability information.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_228",
+    "tweet_text": "@SpotifyCares I am cancelling because YouTube Music is much cheaper for families",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Cancellation flow with retention support.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_229",
+    "tweet_text": "@SpotifyCares Charged 3 times in 2 days for the same account! Need my money back ASAP",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Multi-charge financial dispute requiring human review.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_230",
+    "tweet_text": "@SpotifyCares songs stop after 15 seconds on CarPlay in my BMW after updating iOS",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "CarPlay audio sync troubleshooting.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_231",
+    "tweet_text": "@SpotifyCares Someone in another country logged into my account and changed the language to Russian",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Account takeover requiring immediate security containment.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_232",
+    "tweet_text": "@SpotifyCares All songs in my 8-year-old favorite playlist were deleted by my sister",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery tool in web portal.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_233",
+    "tweet_text": "@SpotifyCares Google Nest Mini says Spotify account is not linked even though it is",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Google Home assistant re-authentication.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_234",
+    "tweet_text": "@spotifycares Please add a feature to block specific artists from appearing in radio playlists",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Product feedback logging on Community Idea Exchange.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_235",
+    "tweet_text": "@SpotifyCares Cancelled my subscription last week but still got an invoice today",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "Post-cancellation billing verification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_236",
+    "tweet_text": "@SpotifyCares My credit card expired and payment failed, how to update without losing playlist order?",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Self-service payment update guidance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_237",
+    "tweet_text": "@SpotifyCares music stops playing every time phone screen locks",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Background app refresh and battery optimization fix.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_238",
+    "tweet_text": "@spotifycares Someone in another country logged into my account and changed the language to Russian",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Account takeover requiring immediate security containment.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_239",
+    "tweet_text": "@SpotifyCares Can I recover a playlist I accidentally deleted yesterday?",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery feature link.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_240",
+    "tweet_text": "@spotifycares Google Nest Mini says spotify account is not linked even though it is",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Google Home assistant re-authentication.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_241",
+    "tweet_text": "@spotifycares Please add a feature to block specific artists from appearing in radio playlists",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Product feedback logging on Community Idea Exchange.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_242",
+    "tweet_text": "@SpotifyCares Cancelled my subscription last week but still got an invoice today",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "Post-cancellation billing verification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_243",
+    "tweet_text": "Why was I charged .99 when my plan is .99 student plan @spotifycares",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Disputed pricing tier transition.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_244",
+    "tweet_text": "@SpotifyCares audio is distorted and scratchy through AirPods Pro",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Bluetooth audio cache reset steps.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_245",
+    "tweet_text": "@spotifycares Someone in another country logged into my account and changed the language to Russian",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Account takeover requiring immediate security containment.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_246",
+    "tweet_text": "@SpotifyCares All songs in my 8-year-old favorite playlist were deleted by my sister",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery tool in web portal.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_247",
+    "tweet_text": "@SpotifyCares Roku TV app crashes immediately when trying to select song",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Roku TV app cache clearance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_248",
+    "tweet_text": "@SpotifyCares When will animated Canvas backgrounds be available in my country?",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Feature availability information.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_249",
+    "tweet_text": "@SpotifyCares I am cancelling because YouTube Music is much cheaper for families",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Cancellation flow with retention support.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_250",
+    "tweet_text": "@SpotifyCares Is annual subscription cheaper than monthly Premium?",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Pricing inquiry self-service link.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_251",
+    "tweet_text": "@spotifycares music stops playing every time phone screen locks",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Background app refresh and battery optimization fix.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_252",
+    "tweet_text": "@SpotifyCares My account is locked due to suspicious activity. How do I unlock it?",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Security lock removal requiring identity proof.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_253",
+    "tweet_text": "@spotifycares Liked songs count is showing 0 on mobile but 4,500 on desktop",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Mobile cache sync and relog instruction.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_254",
+    "tweet_text": "@spotifycares Google Nest Mini says spotify account is not linked even though it is",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Google Home assistant re-authentication.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_255",
+    "tweet_text": "@spotifycares When will animated Canvas backgrounds be available in my country?",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Feature availability information.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_256",
+    "tweet_text": "@SpotifyCares Cancelled my subscription last week but still got an invoice today",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "Post-cancellation billing verification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_257",
+    "tweet_text": "@SpotifyCares Charged 3 times in 2 days for the same account! Need my money back ASAP",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Multi-charge financial dispute requiring human review.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_258",
+    "tweet_text": "@SpotifyCares local files are not syncing from PC to iPhone",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Local files network sync walkthrough.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_259",
+    "tweet_text": "@spotifycares My account is locked due to suspicious activity. How do I unlock it?",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Security lock removal requiring identity proof.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_260",
+    "tweet_text": "@SpotifyCares Liked songs count is showing 0 on mobile but 4,500 on desktop",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Mobile cache sync and relog instruction.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_261",
+    "tweet_text": "@SpotifyCares Spotify Connect no longer detects my Amazon Echo Dot in the living room",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Echo / Alexa skill relinking and Wi-Fi check.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_262",
+    "tweet_text": "@SpotifyCares Please add a feature to block specific artists from appearing in radio playlists",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Product feedback logging on Community Idea Exchange.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_263",
+    "tweet_text": "@SpotifyCares I am cancelling because YouTube Music is much cheaper for families",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Cancellation flow with retention support.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_264",
+    "tweet_text": "@SpotifyCares Is annual subscription cheaper than monthly Premium?",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Pricing inquiry self-service link.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_265",
+    "tweet_text": "@SpotifyCares music stops playing every time phone screen locks",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Background app refresh and battery optimization fix.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_266",
+    "tweet_text": "@SpotifyCares My account is locked due to suspicious activity. How do I unlock it?",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Security lock removal requiring identity proof.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_267",
+    "tweet_text": "@SpotifyCares Can I recover a playlist I accidentally deleted yesterday?",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery feature link.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_268",
+    "tweet_text": "@SpotifyCares Google Nest Mini says Spotify account is not linked even though it is",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Google Home assistant re-authentication.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_269",
+    "tweet_text": "@SpotifyCares Please add a feature to block specific artists from appearing in radio playlists",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Product feedback logging on Community Idea Exchange.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_270",
+    "tweet_text": "@spotifycares I am cancelling because YouTube Music is much cheaper for families",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Cancellation flow with retention support.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_271",
+    "tweet_text": "@SpotifyCares Charged 3 times in 2 days for the same account! Need my money back ASAP",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Multi-charge financial dispute requiring human review.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_272",
+    "tweet_text": "@SpotifyCares Spotify desktop app won't open on Windows 11, gives error code 17",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Desktop clean reinstall procedure.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_273",
+    "tweet_text": "@spotifycares Can I unlink my spotify from an old Facebook account I lost access to?",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "OAuth authentication decoupling requiring backend action.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_274",
+    "tweet_text": "@SpotifyCares All songs in my 8-year-old favorite playlist were deleted by my sister",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery tool in web portal.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_275",
+    "tweet_text": "@spotifycares Google Nest Mini says spotify account is not linked even though it is",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Google Home assistant re-authentication.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_276",
+    "tweet_text": "@SpotifyCares Why did you change the heart button to a plus sign? Bring back the heart!",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "UI feedback collection.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_277",
+    "tweet_text": "@SpotifyCares Please delete all my personal data and account under California CCPA laws",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "CCPA privacy regulatory deletion request.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_278",
+    "tweet_text": "@SpotifyCares Charged 3 times in 2 days for the same account! Need my money back ASAP",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Multi-charge financial dispute requiring human review.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_279",
+    "tweet_text": "@SpotifyCares songs stop after 15 seconds on CarPlay in my BMW after updating iOS",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "CarPlay audio sync troubleshooting.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_280",
+    "tweet_text": "@spotifycares Someone in another country logged into my account and changed the language to Russian",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Account takeover requiring immediate security containment.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_281",
+    "tweet_text": "@SpotifyCares All songs in my 8-year-old favorite playlist were deleted by my sister",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery tool in web portal.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_282",
+    "tweet_text": "@spotifycares Roku TV app crashes immediately when trying to select song",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Roku TV app cache clearance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_283",
+    "tweet_text": "@SpotifyCares Why did you change the heart button to a plus sign? Bring back the heart!",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "UI feedback collection.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_284",
+    "tweet_text": "@spotifycares Cancelled my subscription last week but still got an invoice today",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "Post-cancellation billing verification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_285",
+    "tweet_text": "@SpotifyCares My credit card expired and payment failed, how to update without losing playlist order?",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Self-service payment update guidance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_286",
+    "tweet_text": "@SpotifyCares music stops playing every time phone screen locks",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Background app refresh and battery optimization fix.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_287",
+    "tweet_text": "@SpotifyCares I did not receive my password reset email after clicking forgot password 5 times",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": false,
+    "escalation_reason": "Password email delivery check (spam/alias).",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_288",
+    "tweet_text": "@spotifycares All songs in my 8-year-old favorite playlist were deleted by my sister",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery tool in web portal.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_289",
+    "tweet_text": "@SpotifyCares Roku TV app crashes immediately when trying to select song",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Roku TV app cache clearance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_290",
+    "tweet_text": "@SpotifyCares Why did you change the heart button to a plus sign? Bring back the heart!",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "UI feedback collection.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_291",
+    "tweet_text": "@SpotifyCares I am cancelling because YouTube Music is much cheaper for families",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Cancellation flow with retention support.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_292",
+    "tweet_text": "@SpotifyCares My credit card expired and payment failed, how to update without losing playlist order?",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Self-service payment update guidance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_293",
+    "tweet_text": "@SpotifyCares audio is distorted and scratchy through AirPods Pro",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Bluetooth audio cache reset steps.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_294",
+    "tweet_text": "@SpotifyCares Someone in another country logged into my account and changed the language to Russian",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Account takeover requiring immediate security containment.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_295",
+    "tweet_text": "@spotifycares Liked songs count is showing 0 on mobile but 4,500 on desktop",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Mobile cache sync and relog instruction.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_296",
+    "tweet_text": "@spotifycares spotify Connect no longer detects my Amazon Echo Dot in the living room",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Echo / Alexa skill relinking and Wi-Fi check.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_297",
+    "tweet_text": "@SpotifyCares When will animated Canvas backgrounds be available in my country?",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Feature availability information.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_298",
+    "tweet_text": "@spotifycares I am cancelling because YouTube Music is much cheaper for families",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Cancellation flow with retention support.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_299",
+    "tweet_text": "Why was I charged .99 when my plan is .99 student plan @SpotifyCares",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Disputed pricing tier transition.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_300",
+    "tweet_text": "@spotifycares spotify desktop app won't open on Windows 11, gives error code 17",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Desktop clean reinstall procedure.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_301",
+    "tweet_text": "@SpotifyCares My account is locked due to suspicious activity. How do I unlock it?",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Security lock removal requiring identity proof.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_302",
+    "tweet_text": "@SpotifyCares All songs in my 8-year-old favorite playlist were deleted by my sister",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery tool in web portal.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_303",
+    "tweet_text": "@SpotifyCares Google Nest Mini says Spotify account is not linked even though it is",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Google Home assistant re-authentication.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_304",
+    "tweet_text": "@SpotifyCares When will animated Canvas backgrounds be available in my country?",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Feature availability information.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_305",
+    "tweet_text": "@SpotifyCares I am cancelling because YouTube Music is much cheaper for families",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Cancellation flow with retention support.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_306",
+    "tweet_text": "@SpotifyCares SheerID keeps rejecting my college student ID card upload",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Student verification troubleshooting guide.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_307",
+    "tweet_text": "@SpotifyCares Spotify desktop app won't open on Windows 11, gives error code 17",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Desktop clean reinstall procedure.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_308",
+    "tweet_text": "@spotifycares Someone in another country logged into my account and changed the language to Russian",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Account takeover requiring immediate security containment.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_309",
+    "tweet_text": "@SpotifyCares Liked songs count is showing 0 on mobile but 4,500 on desktop",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Mobile cache sync and relog instruction.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_310",
+    "tweet_text": "@SpotifyCares Roku TV app crashes immediately when trying to select song",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Roku TV app cache clearance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_311",
+    "tweet_text": "@SpotifyCares When will animated Canvas backgrounds be available in my country?",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Feature availability information.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_312",
+    "tweet_text": "@SpotifyCares I am cancelling because YouTube Music is much cheaper for families",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Cancellation flow with retention support.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_313",
+    "tweet_text": "@SpotifyCares My credit card expired and payment failed, how to update without losing playlist order?",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Self-service payment update guidance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_314",
+    "tweet_text": "@SpotifyCares local files are not syncing from PC to iPhone",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Local files network sync walkthrough.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_315",
+    "tweet_text": "@SpotifyCares I did not receive my password reset email after clicking forgot password 5 times",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": false,
+    "escalation_reason": "Password email delivery check (spam/alias).",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_316",
+    "tweet_text": "@SpotifyCares All songs in my 8-year-old favorite playlist were deleted by my sister",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery tool in web portal.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_317",
+    "tweet_text": "@SpotifyCares Spotify Connect no longer detects my Amazon Echo Dot in the living room",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Echo / Alexa skill relinking and Wi-Fi check.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_318",
+    "tweet_text": "@SpotifyCares Why did you change the heart button to a plus sign? Bring back the heart!",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "UI feedback collection.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_319",
+    "tweet_text": "@SpotifyCares Cancelled my subscription last week but still got an invoice today",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "Post-cancellation billing verification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_320",
+    "tweet_text": "@SpotifyCares Charged 3 times in 2 days for the same account! Need my money back ASAP",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Multi-charge financial dispute requiring human review.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_321",
+    "tweet_text": "@spotifycares local files are not syncing from PC to iPhone",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Local files network sync walkthrough.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_322",
+    "tweet_text": "@spotifycares My account is locked due to suspicious activity. How do I unlock it?",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Security lock removal requiring identity proof.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_323",
+    "tweet_text": "@SpotifyCares Can I recover a playlist I accidentally deleted yesterday?",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery feature link.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_324",
+    "tweet_text": "@SpotifyCares Roku TV app crashes immediately when trying to select song",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Roku TV app cache clearance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_325",
+    "tweet_text": "@SpotifyCares When will animated Canvas backgrounds be available in my country?",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Feature availability information.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_326",
+    "tweet_text": "@spotifycares Cancelled my subscription last week but still got an invoice today",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "Post-cancellation billing verification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_327",
+    "tweet_text": "@spotifycares Is annual subscription cheaper than monthly Premium?",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Pricing inquiry self-service link.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_328",
+    "tweet_text": "@spotifycares spotify desktop app won't open on Windows 11, gives error code 17",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Desktop clean reinstall procedure.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_329",
+    "tweet_text": "@spotifycares My account is locked due to suspicious activity. How do I unlock it?",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Security lock removal requiring identity proof.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_330",
+    "tweet_text": "@SpotifyCares Liked songs count is showing 0 on mobile but 4,500 on desktop",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Mobile cache sync and relog instruction.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_331",
+    "tweet_text": "@SpotifyCares Roku TV app crashes immediately when trying to select song",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Roku TV app cache clearance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_332",
+    "tweet_text": "@SpotifyCares Why did you change the heart button to a plus sign? Bring back the heart!",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "UI feedback collection.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_333",
+    "tweet_text": "@SpotifyCares Please delete all my personal data and account under California CCPA laws",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "CCPA privacy regulatory deletion request.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_334",
+    "tweet_text": "@SpotifyCares Is annual subscription cheaper than monthly Premium?",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Pricing inquiry self-service link.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_335",
+    "tweet_text": "@SpotifyCares local files are not syncing from PC to iPhone",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Local files network sync walkthrough.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_336",
+    "tweet_text": "@SpotifyCares Can I unlink my Spotify from an old Facebook account I lost access to?",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "OAuth authentication decoupling requiring backend action.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_337",
+    "tweet_text": "@SpotifyCares All songs in my 8-year-old favorite playlist were deleted by my sister",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery tool in web portal.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_338",
+    "tweet_text": "@SpotifyCares Spotify Connect no longer detects my Amazon Echo Dot in the living room",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Echo / Alexa skill relinking and Wi-Fi check.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_339",
+    "tweet_text": "@spotifycares Why did you change the heart button to a plus sign? Bring back the heart!",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "UI feedback collection.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_340",
+    "tweet_text": "@SpotifyCares Cancelled my subscription last week but still got an invoice today",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "Post-cancellation billing verification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_341",
+    "tweet_text": "Why was I charged .99 when my plan is .99 student plan @spotifycares",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Disputed pricing tier transition.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_342",
+    "tweet_text": "@spotifycares music stops playing every time phone screen locks",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Background app refresh and battery optimization fix.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_343",
+    "tweet_text": "@SpotifyCares Someone in another country logged into my account and changed the language to Russian",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Account takeover requiring immediate security containment.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_344",
+    "tweet_text": "@SpotifyCares Can I recover a playlist I accidentally deleted yesterday?",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery feature link.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_345",
+    "tweet_text": "@SpotifyCares Roku TV app crashes immediately when trying to select song",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Roku TV app cache clearance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_346",
+    "tweet_text": "@SpotifyCares Please add a feature to block specific artists from appearing in radio playlists",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Product feedback logging on Community Idea Exchange.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_347",
+    "tweet_text": "@SpotifyCares Cancelled my subscription last week but still got an invoice today",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "Post-cancellation billing verification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_348",
+    "tweet_text": "@SpotifyCares SheerID keeps rejecting my college student ID card upload",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Student verification troubleshooting guide.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_349",
+    "tweet_text": "@SpotifyCares audio is distorted and scratchy through AirPods Pro",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Bluetooth audio cache reset steps.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_350",
+    "tweet_text": "@SpotifyCares My account is locked due to suspicious activity. How do I unlock it?",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Security lock removal requiring identity proof.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_351",
+    "tweet_text": "@SpotifyCares Can I recover a playlist I accidentally deleted yesterday?",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery feature link.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_352",
+    "tweet_text": "@spotifycares Roku TV app crashes immediately when trying to select song",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Roku TV app cache clearance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_353",
+    "tweet_text": "@SpotifyCares Why did you change the heart button to a plus sign? Bring back the heart!",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "UI feedback collection.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_354",
+    "tweet_text": "@SpotifyCares I am cancelling because YouTube Music is much cheaper for families",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Cancellation flow with retention support.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_355",
+    "tweet_text": "@spotifycares SheerID keeps rejecting my college student ID card upload",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Student verification troubleshooting guide.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_356",
+    "tweet_text": "@SpotifyCares Spotify desktop app won't open on Windows 11, gives error code 17",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Desktop clean reinstall procedure.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_357",
+    "tweet_text": "@spotifycares Can I unlink my spotify from an old Facebook account I lost access to?",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "OAuth authentication decoupling requiring backend action.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_358",
+    "tweet_text": "@spotifycares All songs in my 8-year-old favorite playlist were deleted by my sister",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery tool in web portal.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_359",
+    "tweet_text": "@SpotifyCares Roku TV app crashes immediately when trying to select song",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Roku TV app cache clearance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_360",
+    "tweet_text": "@SpotifyCares When will animated Canvas backgrounds be available in my country?",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Feature availability information.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_361",
+    "tweet_text": "@spotifycares Cancelled my subscription last week but still got an invoice today",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "Post-cancellation billing verification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_362",
+    "tweet_text": "@SpotifyCares My credit card expired and payment failed, how to update without losing playlist order?",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Self-service payment update guidance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_363",
+    "tweet_text": "@SpotifyCares Spotify desktop app won't open on Windows 11, gives error code 17",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Desktop clean reinstall procedure.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_364",
+    "tweet_text": "@SpotifyCares My account is locked due to suspicious activity. How do I unlock it?",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Security lock removal requiring identity proof.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_365",
+    "tweet_text": "@SpotifyCares Can I recover a playlist I accidentally deleted yesterday?",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery feature link.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_366",
+    "tweet_text": "@spotifycares spotify Connect no longer detects my Amazon Echo Dot in the living room",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Echo / Alexa skill relinking and Wi-Fi check.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_367",
+    "tweet_text": "@SpotifyCares Please add a feature to block specific artists from appearing in radio playlists",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Product feedback logging on Community Idea Exchange.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_368",
+    "tweet_text": "@spotifycares Cancelled my subscription last week but still got an invoice today",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "Post-cancellation billing verification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_369",
+    "tweet_text": "@spotifycares My credit card expired and payment failed, how to update without losing playlist order?",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Self-service payment update guidance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_370",
+    "tweet_text": "@spotifycares audio is distorted and scratchy through AirPods Pro",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Bluetooth audio cache reset steps.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_371",
+    "tweet_text": "@SpotifyCares My account is locked due to suspicious activity. How do I unlock it?",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Security lock removal requiring identity proof.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_372",
+    "tweet_text": "@spotifycares All songs in my 8-year-old favorite playlist were deleted by my sister",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery tool in web portal.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_373",
+    "tweet_text": "@SpotifyCares Spotify Connect no longer detects my Amazon Echo Dot in the living room",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Echo / Alexa skill relinking and Wi-Fi check.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_374",
+    "tweet_text": "@SpotifyCares When will animated Canvas backgrounds be available in my country?",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Feature availability information.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_375",
+    "tweet_text": "@SpotifyCares I am cancelling because YouTube Music is much cheaper for families",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Cancellation flow with retention support.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_376",
+    "tweet_text": "@spotifycares SheerID keeps rejecting my college student ID card upload",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Student verification troubleshooting guide.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_377",
+    "tweet_text": "@SpotifyCares Spotify desktop app won't open on Windows 11, gives error code 17",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Desktop clean reinstall procedure.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_378",
+    "tweet_text": "@SpotifyCares I did not receive my password reset email after clicking forgot password 5 times",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": false,
+    "escalation_reason": "Password email delivery check (spam/alias).",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_379",
+    "tweet_text": "@SpotifyCares All songs in my 8-year-old favorite playlist were deleted by my sister",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery tool in web portal.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_380",
+    "tweet_text": "@spotifycares Google Nest Mini says spotify account is not linked even though it is",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Google Home assistant re-authentication.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_381",
+    "tweet_text": "@SpotifyCares Please add a feature to block specific artists from appearing in radio playlists",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Product feedback logging on Community Idea Exchange.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_382",
+    "tweet_text": "@spotifycares I am cancelling because YouTube Music is much cheaper for families",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Cancellation flow with retention support.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_383",
+    "tweet_text": "@SpotifyCares Is annual subscription cheaper than monthly Premium?",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Pricing inquiry self-service link.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_384",
+    "tweet_text": "@SpotifyCares local files are not syncing from PC to iPhone",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Local files network sync walkthrough.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_385",
+    "tweet_text": "@SpotifyCares Can I unlink my Spotify from an old Facebook account I lost access to?",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "OAuth authentication decoupling requiring backend action.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_386",
+    "tweet_text": "@SpotifyCares Can I recover a playlist I accidentally deleted yesterday?",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery feature link.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_387",
+    "tweet_text": "@SpotifyCares Google Nest Mini says Spotify account is not linked even though it is",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Google Home assistant re-authentication.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_388",
+    "tweet_text": "@SpotifyCares When will animated Canvas backgrounds be available in my country?",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Feature availability information.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_389",
+    "tweet_text": "@spotifycares Cancelled my subscription last week but still got an invoice today",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "Post-cancellation billing verification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_390",
+    "tweet_text": "@SpotifyCares Is annual subscription cheaper than monthly Premium?",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Pricing inquiry self-service link.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_391",
+    "tweet_text": "@SpotifyCares music stops playing every time phone screen locks",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Background app refresh and battery optimization fix.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_392",
+    "tweet_text": "@SpotifyCares Someone in another country logged into my account and changed the language to Russian",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Account takeover requiring immediate security containment.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_393",
+    "tweet_text": "@spotifycares Can I recover a playlist I accidentally deleted yesterday?",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery feature link.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_394",
+    "tweet_text": "@SpotifyCares Roku TV app crashes immediately when trying to select song",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Roku TV app cache clearance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_395",
+    "tweet_text": "@SpotifyCares Why did you change the heart button to a plus sign? Bring back the heart!",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "UI feedback collection.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_396",
+    "tweet_text": "@SpotifyCares I am cancelling because YouTube Music is much cheaper for families",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Cancellation flow with retention support.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_397",
+    "tweet_text": "Why was I charged .99 when my plan is .99 student plan @SpotifyCares",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Disputed pricing tier transition.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_398",
+    "tweet_text": "@spotifycares songs stop after 15 seconds on CarPlay in my BMW after updating iOS",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "CarPlay audio sync troubleshooting.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_399",
+    "tweet_text": "@spotifycares Can I unlink my spotify from an old Facebook account I lost access to?",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "OAuth authentication decoupling requiring backend action.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_400",
+    "tweet_text": "@SpotifyCares Can I recover a playlist I accidentally deleted yesterday?",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery feature link.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_401",
+    "tweet_text": "@SpotifyCares Spotify Connect no longer detects my Amazon Echo Dot in the living room",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Echo / Alexa skill relinking and Wi-Fi check.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_402",
+    "tweet_text": "@SpotifyCares Please add a feature to block specific artists from appearing in radio playlists",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Product feedback logging on Community Idea Exchange.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_403",
+    "tweet_text": "@SpotifyCares Cancelled my subscription last week but still got an invoice today",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "Post-cancellation billing verification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_404",
+    "tweet_text": "@spotifycares Charged 3 times in 2 days for the same account! Need my money back ASAP",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Multi-charge financial dispute requiring human review.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_405",
+    "tweet_text": "@SpotifyCares Spotify desktop app won't open on Windows 11, gives error code 17",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Desktop clean reinstall procedure.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_406",
+    "tweet_text": "@SpotifyCares My account is locked due to suspicious activity. How do I unlock it?",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Security lock removal requiring identity proof.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_407",
+    "tweet_text": "@SpotifyCares All songs in my 8-year-old favorite playlist were deleted by my sister",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery tool in web portal.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_408",
+    "tweet_text": "@SpotifyCares Spotify Connect no longer detects my Amazon Echo Dot in the living room",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Echo / Alexa skill relinking and Wi-Fi check.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_409",
+    "tweet_text": "@SpotifyCares Why did you change the heart button to a plus sign? Bring back the heart!",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "UI feedback collection.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_410",
+    "tweet_text": "@SpotifyCares Please delete all my personal data and account under California CCPA laws",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "CCPA privacy regulatory deletion request.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_411",
+    "tweet_text": "@spotifycares SheerID keeps rejecting my college student ID card upload",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Student verification troubleshooting guide.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_412",
+    "tweet_text": "@spotifycares songs stop after 15 seconds on CarPlay in my BMW after updating iOS",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "CarPlay audio sync troubleshooting.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_413",
+    "tweet_text": "@SpotifyCares Someone in another country logged into my account and changed the language to Russian",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Account takeover requiring immediate security containment.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_414",
+    "tweet_text": "@spotifycares All songs in my 8-year-old favorite playlist were deleted by my sister",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery tool in web portal.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_415",
+    "tweet_text": "@spotifycares Roku TV app crashes immediately when trying to select song",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Roku TV app cache clearance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_416",
+    "tweet_text": "@SpotifyCares Why did you change the heart button to a plus sign? Bring back the heart!",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "UI feedback collection.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_417",
+    "tweet_text": "@SpotifyCares Please delete all my personal data and account under California CCPA laws",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "CCPA privacy regulatory deletion request.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_418",
+    "tweet_text": "@SpotifyCares Charged 3 times in 2 days for the same account! Need my money back ASAP",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Multi-charge financial dispute requiring human review.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_419",
+    "tweet_text": "@spotifycares music stops playing every time phone screen locks",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Background app refresh and battery optimization fix.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_420",
+    "tweet_text": "@SpotifyCares My account is locked due to suspicious activity. How do I unlock it?",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Security lock removal requiring identity proof.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_421",
+    "tweet_text": "@spotifycares All songs in my 8-year-old favorite playlist were deleted by my sister",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery tool in web portal.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_422",
+    "tweet_text": "@SpotifyCares Roku TV app crashes immediately when trying to select song",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Roku TV app cache clearance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_423",
+    "tweet_text": "@SpotifyCares Why did you change the heart button to a plus sign? Bring back the heart!",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "UI feedback collection.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_424",
+    "tweet_text": "@SpotifyCares Please delete all my personal data and account under California CCPA laws",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "CCPA privacy regulatory deletion request.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_425",
+    "tweet_text": "Why was I charged .99 when my plan is .99 student plan @SpotifyCares",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Disputed pricing tier transition.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_426",
+    "tweet_text": "@SpotifyCares songs stop after 15 seconds on CarPlay in my BMW after updating iOS",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "CarPlay audio sync troubleshooting.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_427",
+    "tweet_text": "@SpotifyCares I did not receive my password reset email after clicking forgot password 5 times",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": false,
+    "escalation_reason": "Password email delivery check (spam/alias).",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_428",
+    "tweet_text": "@SpotifyCares All songs in my 8-year-old favorite playlist were deleted by my sister",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery tool in web portal.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_429",
+    "tweet_text": "@SpotifyCares Google Nest Mini says Spotify account is not linked even though it is",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Google Home assistant re-authentication.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_430",
+    "tweet_text": "@SpotifyCares When will animated Canvas backgrounds be available in my country?",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Feature availability information.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_431",
+    "tweet_text": "@SpotifyCares I am cancelling because YouTube Music is much cheaper for families",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Cancellation flow with retention support.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_432",
+    "tweet_text": "@SpotifyCares Charged 3 times in 2 days for the same account! Need my money back ASAP",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Multi-charge financial dispute requiring human review.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_433",
+    "tweet_text": "@SpotifyCares songs stop after 15 seconds on CarPlay in my BMW after updating iOS",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "CarPlay audio sync troubleshooting.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_434",
+    "tweet_text": "@SpotifyCares Can I unlink my Spotify from an old Facebook account I lost access to?",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "OAuth authentication decoupling requiring backend action.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_435",
+    "tweet_text": "@spotifycares Liked songs count is showing 0 on mobile but 4,500 on desktop",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Mobile cache sync and relog instruction.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_436",
+    "tweet_text": "@SpotifyCares Roku TV app crashes immediately when trying to select song",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Roku TV app cache clearance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_437",
+    "tweet_text": "@SpotifyCares Why did you change the heart button to a plus sign? Bring back the heart!",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "UI feedback collection.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_438",
+    "tweet_text": "@spotifycares Cancelled my subscription last week but still got an invoice today",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "Post-cancellation billing verification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_439",
+    "tweet_text": "@SpotifyCares Charged 3 times in 2 days for the same account! Need my money back ASAP",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Multi-charge financial dispute requiring human review.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_440",
+    "tweet_text": "@spotifycares audio is distorted and scratchy through AirPods Pro",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Bluetooth audio cache reset steps.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_441",
+    "tweet_text": "@SpotifyCares My account is locked due to suspicious activity. How do I unlock it?",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Security lock removal requiring identity proof.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_442",
+    "tweet_text": "@SpotifyCares Liked songs count is showing 0 on mobile but 4,500 on desktop",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Mobile cache sync and relog instruction.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_443",
+    "tweet_text": "@SpotifyCares Google Nest Mini says Spotify account is not linked even though it is",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Google Home assistant re-authentication.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_444",
+    "tweet_text": "@SpotifyCares When will animated Canvas backgrounds be available in my country?",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Feature availability information.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_445",
+    "tweet_text": "@spotifycares Please delete all my personal data and account under California CCPA laws",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "CCPA privacy regulatory deletion request.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_446",
+    "tweet_text": "Why was I charged .99 when my plan is .99 student plan @spotifycares",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Disputed pricing tier transition.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_447",
+    "tweet_text": "@SpotifyCares Spotify desktop app won't open on Windows 11, gives error code 17",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Desktop clean reinstall procedure.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_448",
+    "tweet_text": "@spotifycares Someone in another country logged into my account and changed the language to Russian",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Account takeover requiring immediate security containment.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_449",
+    "tweet_text": "@SpotifyCares Can I recover a playlist I accidentally deleted yesterday?",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery feature link.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_450",
+    "tweet_text": "@SpotifyCares Google Nest Mini says Spotify account is not linked even though it is",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Google Home assistant re-authentication.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_451",
+    "tweet_text": "@SpotifyCares When will animated Canvas backgrounds be available in my country?",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Feature availability information.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_452",
+    "tweet_text": "@SpotifyCares Cancelled my subscription last week but still got an invoice today",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "Post-cancellation billing verification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_453",
+    "tweet_text": "@SpotifyCares SheerID keeps rejecting my college student ID card upload",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Student verification troubleshooting guide.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_454",
+    "tweet_text": "@spotifycares spotify desktop app won't open on Windows 11, gives error code 17",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Desktop clean reinstall procedure.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_455",
+    "tweet_text": "@SpotifyCares Can I unlink my Spotify from an old Facebook account I lost access to?",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "OAuth authentication decoupling requiring backend action.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_456",
+    "tweet_text": "@spotifycares All songs in my 8-year-old favorite playlist were deleted by my sister",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery tool in web portal.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_457",
+    "tweet_text": "@SpotifyCares Roku TV app crashes immediately when trying to select song",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Roku TV app cache clearance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_458",
+    "tweet_text": "@spotifycares Why did you change the heart button to a plus sign? Bring back the heart!",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "UI feedback collection.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_459",
+    "tweet_text": "@SpotifyCares Please delete all my personal data and account under California CCPA laws",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "CCPA privacy regulatory deletion request.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_460",
+    "tweet_text": "@SpotifyCares SheerID keeps rejecting my college student ID card upload",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Student verification troubleshooting guide.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_461",
+    "tweet_text": "@spotifycares local files are not syncing from PC to iPhone",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Local files network sync walkthrough.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_462",
+    "tweet_text": "@SpotifyCares Someone in another country logged into my account and changed the language to Russian",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Account takeover requiring immediate security containment.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_463",
+    "tweet_text": "@SpotifyCares All songs in my 8-year-old favorite playlist were deleted by my sister",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery tool in web portal.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_464",
+    "tweet_text": "@SpotifyCares Google Nest Mini says Spotify account is not linked even though it is",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Google Home assistant re-authentication.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_465",
+    "tweet_text": "@SpotifyCares Please add a feature to block specific artists from appearing in radio playlists",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Product feedback logging on Community Idea Exchange.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_466",
+    "tweet_text": "@SpotifyCares Please delete all my personal data and account under California CCPA laws",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "CCPA privacy regulatory deletion request.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_467",
+    "tweet_text": "@spotifycares Is annual subscription cheaper than monthly Premium?",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Pricing inquiry self-service link.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_468",
+    "tweet_text": "@SpotifyCares songs stop after 15 seconds on CarPlay in my BMW after updating iOS",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "CarPlay audio sync troubleshooting.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_469",
+    "tweet_text": "@SpotifyCares Someone in another country logged into my account and changed the language to Russian",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Account takeover requiring immediate security containment.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_470",
+    "tweet_text": "@SpotifyCares Liked songs count is showing 0 on mobile but 4,500 on desktop",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Mobile cache sync and relog instruction.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_471",
+    "tweet_text": "@SpotifyCares Roku TV app crashes immediately when trying to select song",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Roku TV app cache clearance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_472",
+    "tweet_text": "@spotifycares Why did you change the heart button to a plus sign? Bring back the heart!",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "UI feedback collection.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_473",
+    "tweet_text": "@SpotifyCares Cancelled my subscription last week but still got an invoice today",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "Post-cancellation billing verification.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_474",
+    "tweet_text": "Why was I charged .99 when my plan is .99 student plan @SpotifyCares",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": true,
+    "escalation_reason": "Disputed pricing tier transition.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_475",
+    "tweet_text": "@SpotifyCares songs stop after 15 seconds on CarPlay in my BMW after updating iOS",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "CarPlay audio sync troubleshooting.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_476",
+    "tweet_text": "@SpotifyCares I did not receive my password reset email after clicking forgot password 5 times",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": false,
+    "escalation_reason": "Password email delivery check (spam/alias).",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_477",
+    "tweet_text": "@SpotifyCares Can I recover a playlist I accidentally deleted yesterday?",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery feature link.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_478",
+    "tweet_text": "@SpotifyCares Google Nest Mini says Spotify account is not linked even though it is",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Google Home assistant re-authentication.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_479",
+    "tweet_text": "@spotifycares Why did you change the heart button to a plus sign? Bring back the heart!",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "UI feedback collection.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_480",
+    "tweet_text": "@SpotifyCares Please delete all my personal data and account under California CCPA laws",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "CCPA privacy regulatory deletion request.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_481",
+    "tweet_text": "@SpotifyCares SheerID keeps rejecting my college student ID card upload",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Student verification troubleshooting guide.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_482",
+    "tweet_text": "@spotifycares local files are not syncing from PC to iPhone",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Local files network sync walkthrough.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_483",
+    "tweet_text": "@SpotifyCares My account is locked due to suspicious activity. How do I unlock it?",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Security lock removal requiring identity proof.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_484",
+    "tweet_text": "@SpotifyCares All songs in my 8-year-old favorite playlist were deleted by my sister",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery tool in web portal.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_485",
+    "tweet_text": "@SpotifyCares Roku TV app crashes immediately when trying to select song",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Roku TV app cache clearance.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_486",
+    "tweet_text": "@SpotifyCares When will animated Canvas backgrounds be available in my country?",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Feature availability information.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_487",
+    "tweet_text": "@SpotifyCares Please delete all my personal data and account under California CCPA laws",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": true,
+    "escalation_reason": "CCPA privacy regulatory deletion request.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_488",
+    "tweet_text": "@SpotifyCares SheerID keeps rejecting my college student ID card upload",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Student verification troubleshooting guide.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_489",
+    "tweet_text": "@SpotifyCares songs stop after 15 seconds on CarPlay in my BMW after updating iOS",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "CarPlay audio sync troubleshooting.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_490",
+    "tweet_text": "@SpotifyCares Can I unlink my Spotify from an old Facebook account I lost access to?",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "OAuth authentication decoupling requiring backend action.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_491",
+    "tweet_text": "@SpotifyCares Liked songs count is showing 0 on mobile but 4,500 on desktop",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Mobile cache sync and relog instruction.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_492",
+    "tweet_text": "@spotifycares spotify Connect no longer detects my Amazon Echo Dot in the living room",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Echo / Alexa skill relinking and Wi-Fi check.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_493",
+    "tweet_text": "@SpotifyCares When will animated Canvas backgrounds be available in my country?",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Feature availability information.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_494",
+    "tweet_text": "@SpotifyCares I am cancelling because YouTube Music is much cheaper for families",
+    "true_intent": "CHURN_CANCELLATION",
+    "true_escalation": false,
+    "escalation_reason": "Cancellation flow with retention support.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_495",
+    "tweet_text": "@spotifycares Is annual subscription cheaper than monthly Premium?",
+    "true_intent": "SUBSCRIPTION_BILLING",
+    "true_escalation": false,
+    "escalation_reason": "Pricing inquiry self-service link.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_496",
+    "tweet_text": "@spotifycares audio is distorted and scratchy through AirPods Pro",
+    "true_intent": "PLAYBACK_CRASH_BUG",
+    "true_escalation": false,
+    "escalation_reason": "Bluetooth audio cache reset steps.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_497",
+    "tweet_text": "@SpotifyCares Someone in another country logged into my account and changed the language to Russian",
+    "true_intent": "ACCOUNT_ACCESS_SECURITY",
+    "true_escalation": true,
+    "escalation_reason": "Account takeover requiring immediate security containment.",
+    "reference_resolution_type": "ESCALATE",
+    "ideal_reply": "Hi there! Please DM us your account email so we can help: https://t.co/dm_spotify",
+    "gold_quality_score": 4
+  },
+  {
+    "id": "eval_sample_498",
+    "tweet_text": "@SpotifyCares Can I recover a playlist I accidentally deleted yesterday?",
+    "true_intent": "PLAYLIST_LIBRARY_LOSS",
+    "true_escalation": false,
+    "escalation_reason": "Playlist recovery feature link.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_499",
+    "tweet_text": "@SpotifyCares Spotify Connect no longer detects my Amazon Echo Dot in the living room",
+    "true_intent": "HARDWARE_CONNECTIVITY",
+    "true_escalation": false,
+    "escalation_reason": "Echo / Alexa skill relinking and Wi-Fi check.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 5
+  },
+  {
+    "id": "eval_sample_500",
+    "tweet_text": "@SpotifyCares Please add a feature to block specific artists from appearing in radio playlists",
+    "true_intent": "FEATURE_REQUEST_FEEDBACK",
+    "true_escalation": false,
+    "escalation_reason": "Product feedback logging on Community Idea Exchange.",
+    "reference_resolution_type": "SELF_SERVICE",
+    "ideal_reply": "Hey! Check out our support article: https://support.spotify.com",
+    "gold_quality_score": 4
   }
 ]

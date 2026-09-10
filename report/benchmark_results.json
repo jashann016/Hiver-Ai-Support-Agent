@@ -1,18 +1,18 @@
 {
   "Baseline 0 (Trivial: Rule/Static)": {
-    "intent_accuracy": 0.27,
-    "intent_macro_f1": 0.2123,
-    "intent_macro_precision": 0.3087,
-    "intent_macro_recall": 0.2666,
-    "escalation_accuracy": 0.81,
+    "intent_accuracy": 0.244,
+    "intent_macro_f1": 0.1848,
+    "intent_macro_precision": 0.3083,
+    "intent_macro_recall": 0.242,
+    "escalation_accuracy": 0.762,
     "escalation_precision": 1.0,
-    "escalation_recall": 0.1739,
-    "escalation_f1": 0.2963,
-    "under_escalation_safety_risk": 0.8261,
+    "escalation_recall": 0.063,
+    "escalation_f1": 0.1185,
+    "under_escalation_safety_risk": 0.937,
     "over_escalation_cost_rate": 0.0,
-    "avg_reply_judge_quality": 3.25,
-    "judge_human_cohen_kappa": 0.002,
-    "judge_human_agreement_pct": 13.5,
+    "avg_reply_judge_quality": 3.13,
+    "judge_human_cohen_kappa": 0.014,
+    "judge_human_agreement_pct": 13.8,
     "sample_predictions": [
       {
         "id": "eval_bill_001",
@@ -72,19 +72,19 @@
     ]
   },
   "Baseline 1 (Simple: Heuristic Rule)": {
-    "intent_accuracy": 0.475,
-    "intent_macro_f1": 0.373,
-    "intent_macro_precision": 0.3383,
-    "intent_macro_recall": 0.4675,
-    "escalation_accuracy": 0.78,
-    "escalation_precision": 0.525,
-    "escalation_recall": 0.4565,
-    "escalation_f1": 0.4884,
-    "under_escalation_safety_risk": 0.5435,
-    "over_escalation_cost_rate": 0.1234,
-    "avg_reply_judge_quality": 3.22,
-    "judge_human_cohen_kappa": 0.021,
-    "judge_human_agreement_pct": 24.5,
+    "intent_accuracy": 0.426,
+    "intent_macro_f1": 0.3317,
+    "intent_macro_precision": 0.3301,
+    "intent_macro_recall": 0.4211,
+    "escalation_accuracy": 0.81,
+    "escalation_precision": 0.66,
+    "escalation_recall": 0.5197,
+    "escalation_f1": 0.5815,
+    "under_escalation_safety_risk": 0.4803,
+    "over_escalation_cost_rate": 0.0912,
+    "avg_reply_judge_quality": 3.17,
+    "judge_human_cohen_kappa": -0.001,
+    "judge_human_agreement_pct": 20.0,
     "sample_predictions": [
       {
         "id": "eval_bill_001",
@@ -143,20 +143,20 @@
       }
     ]
   },
-  "Production Agent (RAG + Calibrated Routing)": {
-    "intent_accuracy": 0.8,
-    "intent_macro_f1": 0.7817,
-    "intent_macro_precision": 0.825,
-    "intent_macro_recall": 0.7959,
-    "escalation_accuracy": 0.875,
-    "escalation_precision": 0.7234,
-    "escalation_recall": 0.7391,
-    "escalation_f1": 0.7312,
-    "under_escalation_safety_risk": 0.2609,
-    "over_escalation_cost_rate": 0.0844,
-    "avg_reply_judge_quality": 4.32,
-    "judge_human_cohen_kappa": 0.009,
-    "judge_human_agreement_pct": 40.0,
+  "Baseline 2 (Standard RAG Agent)": {
+    "intent_accuracy": 0.662,
+    "intent_macro_f1": 0.6758,
+    "intent_macro_precision": 0.7872,
+    "intent_macro_recall": 0.6614,
+    "escalation_accuracy": 0.772,
+    "escalation_precision": 0.5436,
+    "escalation_recall": 0.6378,
+    "escalation_f1": 0.587,
+    "under_escalation_safety_risk": 0.3622,
+    "over_escalation_cost_rate": 0.1823,
+    "avg_reply_judge_quality": 3.88,
+    "judge_human_cohen_kappa": -0.0,
+    "judge_human_agreement_pct": 33.4,
     "sample_predictions": [
       {
         "id": "eval_bill_001",
@@ -211,6 +211,78 @@
         "pred_esc": false,
         "gold_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
         "pred_reply": "Hey there! Student discount verification needs renewal every 12 months via SheerID. You can renew your status here: https://support.spotify.com/article/student-discount/ Let us know if you hit a snag!",
+        "gold_quality_score": 4
+      }
+    ]
+  },
+  "Model 3 (Proposed: Agentic RAG + Self-Critique)": {
+    "intent_accuracy": 0.656,
+    "intent_macro_f1": 0.6565,
+    "intent_macro_precision": 0.7715,
+    "intent_macro_recall": 0.6544,
+    "escalation_accuracy": 0.772,
+    "escalation_precision": 0.5436,
+    "escalation_recall": 0.6378,
+    "escalation_f1": 0.587,
+    "under_escalation_safety_risk": 0.3622,
+    "over_escalation_cost_rate": 0.1823,
+    "avg_reply_judge_quality": 3.82,
+    "judge_human_cohen_kappa": -0.03,
+    "judge_human_agreement_pct": 28.2,
+    "sample_predictions": [
+      {
+        "id": "eval_bill_001",
+        "input": "@SpotifyCares I was charged twice for my Family plan this month (.99 x 2). Can you refund the duplicate charge?",
+        "gold_intent": "SUBSCRIPTION_BILLING",
+        "pred_intent": "SUBSCRIPTION_BILLING",
+        "gold_esc": true,
+        "pred_esc": true,
+        "gold_reply": "Hey there! We would be happy to take a closer look at this duplicate charge. Please send us a DM with your account email address and payment details so we can assist further: https://t.co/dm_spotify",
+        "pred_reply": "Hey there! We want to help look into this securely. Please send us a Direct Message with your account email address so our team can assist: https://t.co/dm_spotify",
+        "gold_quality_score": 5
+      },
+      {
+        "id": "eval_bill_002",
+        "input": "@SpotifyCares Why did my student discount expire without notification? Im still enrolled in uni.",
+        "gold_intent": "SUBSCRIPTION_BILLING",
+        "pred_intent": "SUBSCRIPTION_BILLING",
+        "gold_esc": false,
+        "pred_esc": false,
+        "gold_reply": "Hi! Student discounts need to be reverified every 12 months through SheerID. You can renew your student verification here: https://support.spotify.com/article/student-discount/ Let us know if you run into issues!",
+        "pred_reply": "Hey there! Student discount verification needs renewal every 12 months via SheerID. You can renew your status here: https://support.spotify.com/article/student-discount/ Let us know if you hit a snag!",
+        "gold_quality_score": 5
+      },
+      {
+        "id": "eval_bill_003",
+        "input": "@SpotifyCares My card was declined even though I have sufficient balance. How can I update payment method?",
+        "gold_intent": "SUBSCRIPTION_BILLING",
+        "pred_intent": "SUBSCRIPTION_BILLING",
+        "gold_esc": false,
+        "pred_esc": false,
+        "gold_reply": "Hey! You can update your payment details anytime by logging into your account page at http://spotify.com/account under Manage plan. Give that a try in an incognito window!",
+        "pred_reply": "Hi! You can easily update your card or billing method at http://spotify.com/account under 'Manage Plan'. We recommend doing this in a private/incognito browser window!",
+        "gold_quality_score": 5
+      },
+      {
+        "id": "eval_bill_004",
+        "input": "@SpotifyCares I cancelled premium 3 months ago and you are still billing my credit card every month! This is theft!",
+        "gold_intent": "SUBSCRIPTION_BILLING",
+        "pred_intent": "SUBSCRIPTION_BILLING",
+        "gold_esc": true,
+        "pred_esc": true,
+        "gold_reply": "We hear you and want to get this sorted out right away. Please drop us a DM with your account email and the last 4 digits of the card being charged so our billing team can investigate: https://t.co/dm_spotify",
+        "pred_reply": "Hey there! We want to help look into this securely. Please send us a Direct Message with your account email address so our team can assist: https://t.co/dm_spotify",
+        "gold_quality_score": 5
+      },
+      {
+        "id": "eval_sample_005",
+        "input": "@SpotifyCares You guys charged me in GBP instead of EUR on my account.",
+        "gold_intent": "SUBSCRIPTION_BILLING",
+        "pred_intent": "SUBSCRIPTION_BILLING",
+        "gold_esc": true,
+        "pred_esc": false,
+        "gold_reply": "Hey there! We want to help resolve this for you. Drop us a DM with your account email and more details so our support team can help: https://t.co/dm_spotify",
+        "pred_reply": "Hi! You can easily update your card or billing method at http://spotify.com/account under 'Manage Plan'. We recommend doing this in a private/incognito browser window!",
         "gold_quality_score": 4
       }
     ]
